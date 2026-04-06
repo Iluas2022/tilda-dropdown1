@@ -3334,7 +3334,8 @@ function renderQuestion() {
   const ru = q.ru;
   const tr = q[currentLang] || q.ru;
   document.getElementById('ru-question-number').textContent = `${getQuestionNumberRange(currentQuestionIndex)} из ${getEffectiveTotalQuestions()}`;
-  document.getElementById('translated-question-number').textContent = `${langDisplay[currentLang]} ${currentQuestionIndex + 1} / ${questions.length}`;
+// Только название языка (самый чистый и красивый вариант)
+document.getElementById('translated-question-number').textContent = langDisplay[currentLang];
   document.getElementById('ru-question-text').textContent = ru.text || 'Нет текста';
   document.getElementById('translated-question-text').textContent = tr.text || 'Нет перевода';
   const imgCont = document.getElementById('ru-question-image');
