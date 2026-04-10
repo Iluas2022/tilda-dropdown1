@@ -932,1030 +932,2302 @@ const questionsPatent = [
   }
     ];
 const questionsRVP = [
-     
-    {
-    "type": "audioGroup",
-    "audioUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/686f89bb0013edfe4b61/view?project=6721fc620035074537ed",
-    "ru": {
-      "text": "Прослушайте диалог и выберите правильный ответ в заданиях 1 и 2. Они говорят",
-      "subQuestions": [
-        { "text": "Они говорят", "options": ["в кинотеатре", "в магазине", "в гостинице"], "correctAnswer": "в гостинице" },
-        { "text": "Вы услышали, что", "options": ["есть свободные номера", "нет свободных номеров", "есть одноместный номер"], "correctAnswer": "нет свободных номеров" }
-      ]
-    },
-    "uz": {
-      "text": "Dialogni tinglang va 1 va 2-javob savollariga to'g'ri javobni tanlang.",
-      "subQuestions": [
-        { "text": "Ular nima deyishadi?", "options": ["kinoteatrda", "do'konda", "mehmonxonada"], "correctAnswer": "mehmonxonada" },
-        { "text": "Siz eshityapsizki", "options": ["bo'sh xonalar bor", "bo'sh xonalar yo'q", "bir kishilik xona bor"], "correctAnswer": "bo'sh xonalar yo'q" }
-      ]
-    },
-    "en": {
-      "text": "Listen to the dialogue and choose the correct answer for questions 1 and 2. They say",
-      "subQuestions": [
-        { "text": "They say", "options": ["in the cinema", "in the store", "in the hotel"], "correctAnswer": "in the hotel" },
-        { "text": "You heard that", "options": ["there are free rooms", "there are no free rooms", "there is a single room"], "correctAnswer": "there are no free rooms" }
-      ]
-    },
-    "tj": {
-      "text": "Suhbatni tinglang va 1 va 2-savollar uchun to'g'ri javobni tanlang.",
-      "subQuestions": [
-        { "text": "Ular nima deyishadi?", "options": ["kino teatride", "do'konda", "mehmonxonada"], "correctAnswer": "mehmonxonada" },
-        { "text": "Siz eshityapsizki", "options": ["bo'sh xonalar bor", "bo'sh xonalar yo'q", "bir kishilik xona bor"], "correctAnswer": "bo'sh xonalar yo'q" }
-      ]
-    }
+{
+  type: "speaking",
+  excludeFromStatistics: true,
+  ru: {
+    text: "Начните диалог.\n\nВы зашли в магазин и хотите купить телефон. Поздоровайтесь с продавцом, обратитесь к нему и узнайте, сколько стоит телефон.",
+    exampleAnswer: "Здравствуйте! Добрый день! Подскажите, пожалуйста, сколько стоит этот телефон?\nЗдравствуйте! Можно посмотреть вот этот телефон? Сколько он стоит?"
   },
-  {
-    "type": "audioGroup",
-    "audioUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/686f8c43002562009960/view?project=6721fc620035074537ed",
-    "ru": {
-      "text": "Прослушайте объявление и выберите правильный ответ в заданиях 3 и 4. Этот банк",
-      "subQuestions": [
-        { "text": "Этот банк", "options": ["открылся", "закрылся", "изменил часы работы"], "correctAnswer": "изменил часы работы" },
-        { "text": "Теперь банк будет работать", "options": ["до 9 часов вечера", "как обычно", "до 21 мая"], "correctAnswer": "до 9 часов вечера" }
-      ]
-    },
-    "uz": {
-      "text": "E'lonni tinglang va 3 va 4-savollar uchun to'g'ri javobni tanlang. Bu bank",
-      "subQuestions": [
-        { "text": "Bu bank", "options": ["ochildi", "yopildi", "ishlash vaqtini o'zgartirdi"], "correctAnswer": "ishlash vaqtini o'zgartirdi" },
-        { "text": "Endi bank soat necha uchun ishlaydi?", "options": ["soat 9 gacha", "odatda", "21-maygacha"], "correctAnswer": "soat 9 gacha" }
-      ]
-    },
-    "en": {
-      "text": "Listen to the announcement and choose the correct answer for questions 3 and 4. This bank",
-      "subQuestions": [
-        { "text": "This bank", "options": ["has opened", "has closed", "has changed working hours"], "correctAnswer": "has changed working hours" },
-        { "text": "Now the bank will work", "options": ["until 9 PM", "as usual", "until May 21st"], "correctAnswer": "until 9 PM" }
-      ]
-    },
-    "tj": {
-      "text": "E'lonni tinglang va 3 va 4-savollar uchun to'g'ri javobni tanlang. Bu bank",
-      "subQuestions": [
-        { "text": "Bu bank", "options": ["ochildi", "yopildi", "ishlash vaqtini o'zgartirdi"], "correctAnswer": "ishlash vaqtini o'zgartirdi" },
-        { "text": "Endi bank soat necha uchun ishlaydi?", "options": ["soat 9 gacha", "odatda", "21-maygacha"], "correctAnswer": "soat 9 gacha" }
-      ]
-    }
+  uz: {
+    text: "Dialogni boshlang.\n\nDo‘konga kirdingiz va telefon sotib olmoqchisiz. Sotuvchiga salom bering, murojaat qiling va telefon qancha turishini so‘rang.",
+    exampleAnswer: "Salom! Xayrli kun! Iltimos, bu telefon qancha turadi?\nAssalomu alaykum! Mana bu telefonni ko‘rib chiqsam bo‘ladimi? Narxi qancha?"
   },
-       {
-    "type": "text",
-    "ru": {
-      "text": "Прочитайте объявление и выберите правильный ответ.\n\n\"Осторожно: опасная зона!\"\n\nВы можете увидеть это объявление в ресторане",
-      "options": ["в ресторане", "на стройке", "в автобусе"],
-      "correctAnswer": "на стройке"
-    },
-    "uz": {
-      "text": "E'lonni o'qing va to'g'ri javobni tanlang.\n\n\"Diqqat: xavfli zona!\"\n\nSiz bu e'lonni restoranda ko'rishingiz mumkin",
-      "options": ["restoranda", "qurilishda", "avtobusda"],
-      "correctAnswer": "qurilishda"
-    },
-    "en": {
-      "text": "Read the announcement and choose the correct answer.\n\n\"Caution: dangerous zone!\"\n\nYou can see this announcement in the restaurant",
-      "options": ["in the restaurant", "at the construction site", "in the bus"],
-      "correctAnswer": "at the construction site"
-    },
-    "tj": {
-      "text": "Эълонро хонед ва ҷавоби дурустро интихоб кунед.\n\n\"Эҳтиёт: хати хатарнок!\"\n\nШумо метавонед ин эълонро дар ресторани бинед",
-      "options": ["дар ресторани", "дар сохтмон", "дар автобус"],
-      "correctAnswer": "дар сохтмон"
-    }
+  en: {
+    text: "Start the dialogue.\n\nYou entered a store and want to buy a phone. Greet the seller, address him and ask how much the phone costs.",
+    exampleAnswer: "Hello! Good afternoon! Could you please tell me how much this phone costs?\nHello! May I look at this phone? How much does it cost?"
   },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Прочитайте текст и выберите правильный ответ.\n\n\"Меня зовут Лейла. Сегодня утром мы с сыном ходили на экскурсию по городу. Весь день была хорошая погода. Мы гуляли до самого вечера. Пришли домой поздно.\n\nЛейла вернулась домой",
-      "options": ["вечером", "днём", "утром"],
-      "correctAnswer": "вечером"
-    },
-    "uz": {
-      "text": "Matnni o'qing va to'g'ri javobni tanlang.\n\n\"Mening ismim Leyla. Bugun ertalab o'g'lim bilan shahar bo'ylab ekskursiyaga chiqdik. Butun kun yaxshi ob-havo bo'ldi. Biz kechqurunlargacha sayr qildik. Uyga kech qaytdik.\n\nLeyla uyga qaytdi",
-      "options": ["kechqurun", "kunduz", "ertalab"],
-      "correctAnswer": "kechqurun"
-    },
-    "en": {
-      "text": "Read the text and choose the correct answer.\n\n\"My name is Leila. This morning, my son and I went on a city tour. The weather was good all day. We walked until late evening. We came home late.\n\nLeila returned home",
-      "options": ["in the evening", "in the afternoon", "in the morning"],
-      "correctAnswer": "in the evening"
-    },
-    "tj": {
-      "text": "Мәтнро хонед ва ҷавоби дурустро интихоб кунед.\n\n\"Маро Лейла деб номлайдилар. Имрӯз ertalab ман ва фарзандим шаҳарни аниқладик. Ҳар куни ҳаво яхши бўлди. Биз кечқурунгача оғирликда қурдик. Үйга кеч кирдик.\n\nЛейла үйге қайтди",
-      "options": ["вечером", "днём", "утром"],
-      "correctAnswer": "вечером"
-    }
-  },
-    {
-  "type": "textInput",
-  "ru": {
-    "text": "Прочитайте текст и вставьте пропущенное слово.\n\nАлишер приехал из Узбекистана. Алишер – водитель. Впишите нужное слово в анкету.\nАнкета:\n1. Как Вас зовут? - Меня зовут Алишер.\n2. Откуда Вы приехали? - Я приехал из Узбекистана.\n3. Кто Вы по профессии? - Я ________________________.",
-    "correctAnswer": "водитель"
-  },
-  "uz": {
-    "text": "Matnni o'qing va bo'sh joyni to'ldiring.\n\nAlisher O'zbekistondan kelgan. Alisher – haydovchi. Kerakli so'zni anketaga kiriting.\nAnketa:\n1. Ismingiz nima? - Mening ismim Alisher.\n2. Qayerdan keldingiz? - Men O'zbekistondan keldim.\n3. Kasbingiz nima? - Men ________________________.",
-    "correctAnswer": "haydovchi"
-  },
-  "en": {
-    "text": "Read the text and fill in the blank.\n\nAlisher came from Uzbekistan. Alisher is a driver. Fill in the required word in the questionnaire.\nQuestionnaire:\n1. What is your name? - My name is Alisher.\n2. Where did you come from? - I came from Uzbekistan.\n3. What is your profession? - I am ________________________.",
-    "correctAnswer": "driver"
-  },
-  "tj": {
-    "text": "Matnni o'qing va bo'sh joyni to'ldiring.\n\nAlisher O'zbekistondan kelgan. Alisher – haydovchi. Kerakli so'zni anketaga kiriting.\nAnketa:\n1. Ismingiz nima? - Mening ismim Alisher.\n2. Qayerdan keldingiz? - Men O'zbekistondan keldim.\n3. Kasbingiz nima? - Men ________________________.",
-    "correctAnswer": "haydovchi"
-  }
-},
-
- {
-    "type": "text",
-    "ru": {
-      "text": "А.С. Пушкин родился летом, _______________.",
-      "options": ["6 июня", "6 сентября", "6 января"],
-      "correctAnswer": "6 июня"
-    },
-    "uz": {
-      "text": "A.S. Pushkin yozda tug'ilgan, _______________.",
-      "options": ["6-iyun", "6-sentabr", "6-yanvar"],
-      "correctAnswer": "6-iyun"
-    },
-    "en": {
-      "text": "A.S. Pushkin was born in the summer, _______________.",
-      "options": ["June 6", "September 6", "January 6"],
-      "correctAnswer": "June 6"
-    },
-    "tj": {
-      "text": "A.S. Pushkin тобистонда туғилган, _______________.",
-      "options": ["6-iyun", "6-sentabr", "6-yanvar"],
-      "correctAnswer": "6-iyun"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Я люблю _______________ хорошую музыку.",
-      "options": ["читать", "слушать", "смотреть"],
-      "correctAnswer": "слушать"
-    },
-    "uz": {
-      "text": "Men _______________ yaxshi musiqa eshitishni yoqtiraman.",
-      "options": ["o'qish", "tinglash", "ko'rish"],
-      "correctAnswer": "tinglash"
-    },
-    "en": {
-      "text": "I love _______________ good music.",
-      "options": ["reading", "listening", "watching"],
-      "correctAnswer": "listening"
-    },
-    "tj": {
-      "text": "Men _______________ yaxshi musiqa tinglashni yoqtiraman.",
-      "options": ["o'qish", "tinglash", "ko'rish"],
-      "correctAnswer": "tinglash"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Скажите, _______________ есть семья?",
-      "options": ["Вы", "Вам", "у Вас"],
-      "correctAnswer": "у Вас"
-    },
-    "uz": {
-      "text": "Ayting, _______________ oilangiz bormi?",
-      "options": ["Siz", "Sizga", "Sizda"],
-      "correctAnswer": "Sizda"
-    },
-    "en": {
-      "text": "Say, _______________ have a family?",
-      "options": ["You", "To you", "Do you"],
-      "correctAnswer": "Do you"
-    },
-    "tj": {
-      "text": "Ayting, _______________ oilasi bormi?",
-      "options": ["Siz", "Sizga", "Sizda"],
-      "correctAnswer": "Sizda"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Вы не можете работать в России, _______________ не получили разрешение на работу.",
-      "options": ["чтобы", "потому что", "который"],
-      "correctAnswer": "потому что"
-    },
-    "uz": {
-      "text": "Siz Rossiyada ishlay olmaysiz, _______________ ishlash ruxsatini olmadingiz.",
-      "options": ["shuning uchun", "chunki", "qaysi"],
-      "correctAnswer": "chunki"
-    },
-    "en": {
-      "text": "You cannot work in Russia, _______________ you have not received permission to work.",
-      "options": ["because", "because", "which"],
-      "correctAnswer": "because"
-    },
-    "tj": {
-      "text": "Siz Rossiyada ishlay olmaysiz, _______________ ishlashga ruxsat olmaganligingiz sababli.",
-      "options": ["chunki", "shuning uchun", "qaysi"],
-      "correctAnswer": "chunki"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "23 февраля в России празднуют",
-      "options": ["Праздник Весны и Труда", "День защитника Отечества", "День России"],
-      "correctAnswer": "День защитника Отечества"
-    },
-    "uz": {
-      "text": "23-fevralda Rossiyada __________ nishonlanadi.",
-      "options": ["Xalqaro ayollar kuni", "Vatan himoyachilari kuni", "Rossiya kuni"],
-      "correctAnswer": "Vatan himoyachilari kuni"
-    },
-    "en": {
-      "text": "On February 23rd, Russia celebrates",
-      "options": ["Labor and Spring Day", "Defender of the Fatherland Day", "Russia Day"],
-      "correctAnswer": "Defender of the Fatherland Day"
-    },
-    "tj": {
-      "text": "23 феврал дар Русия __________ таҷлил мегардад.",
-      "options": ["Рӯзи Весна ва меҳнат", "Рӯзи ҳимоягарони Ватан", "Рӯзи Русия"],
-      "correctAnswer": "Рӯзи ҳимоягарони Ватан"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Какой город Российской Федерации называют «второй столицей» России?",
-      "options": ["Екатеринбург", "Владивосток", "Санкт-Петербург"],
-      "correctAnswer": "Санкт-Петербург"
-    },
-    "uz": {
-      "text": "Rossiya Federatsiyasining qaysi shahrini \"ikkinchi poytaxt\" deb atashadi?",
-      "options": ["Yekaterinburg", "Vladivostok", "Sankt-Peterburg"],
-      "correctAnswer": "Sankt-Peterburg"
-    },
-    "en": {
-      "text": "Which city of the Russian Federation is called the \"second capital\" of Russia?",
-      "options": ["Yekaterinburg", "Vladivostok", "Saint Petersburg"],
-      "correctAnswer": "Saint Petersburg"
-    },
-    "tj": {
-      "text": "Кадом шаҳри Федератсияи Русияро «иккита пойтахт» меноманд?",
-      "options": ["Екатеринбург", "Владивосток", "Санкт-Петербург"],
-      "correctAnswer": "Санкт-Петербург"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Великая Отечественная война окончилась",
-      "options": ["в 1612 г.", "в 1812 г.", "в 1945 г."],
-      "correctAnswer": "в 1945 г."
-    },
-    "uz": {
-      "text": "Buyuk Vatan urushi __________ yakunlandi.",
-      "options": ["1612-yilda", "1812-yilda", "1945-yilda"],
-      "correctAnswer": "1945-yilda"
-    },
-    "en": {
-      "text": "The Great Patriotic War ended",
-      "options": ["in 1612", "in 1812", "in 1945"],
-      "correctAnswer": "in 1945"
-    },
-    "tj": {
-      "text": "Ҷанги Бузурги Ватанӣ ______________ анҷом ёфт.",
-      "options": ["в 1612 г.", "в 1812 г.", "в 1945 г."],
-      "correctAnswer": "в 1945 г."
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Содружество Независимых Государств (СНГ) было создано",
-      "options": ["в 1612 г.", "в 1941 г.", "в 1991 г."],
-      "correctAnswer": "в 1991 г."
-    },
-    "uz": {
-      "text": "Mustaqil Davlatlar Hamdo'stligi (MDH) __________ tashkil etilgan.",
-      "options": ["1612-yilda", "1941-yilda", "1991-yilda"],
-      "correctAnswer": "1991-yilda"
-    },
-    "en": {
-      "text": "The Commonwealth of Independent States (CIS) was created",
-      "options": ["in 1612", "in 1941", "in 1991"],
-      "correctAnswer": "in 1991"
-    },
-    "tj": {
-      "text": "Созмонҳои кишварҳои мустақил (СКМ) пас аз",
-      "options": ["парчомаи СССР дар 1991 сол", "Ҷанги Бузурги Ватанӣ дар 1941–1945 солҳо", "Инқилоби русии бузург дар 1917–1922 солҳо"],
-      "correctAnswer": "парчомаи СССР дар 1991 сол"
-    }
-  },
-    {
-  "type": "text",
-  "ru": {
-    "text": "Укажите флаг Российской Федерации?",
-    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/686f6458002f471641a1/view?project=6721fc620035074537ed",
-    "options": ["1", "2", "3"],
-    "correctAnswer": "2"
-  },
-  "uz": {
-    "text": "Rossiya Federatsiyasi bayrog'ini ko'rsating?",
-    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/686f6458002f471641a1/view?project=6721fc620035074537ed",
-    "options": ["1", "2", "3"],
-    "correctAnswer": "2"
-  },
-  "en": {
-    "text": "Indicate the flag of the Russian Federation?",
-    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/686f6458002f471641a1/view?project=6721fc620035074537ed",
-    "options": ["1", "2", "3"],
-    "correctAnswer": "2"
-  },
-  "tj": {
-    "text": "Парчами Федератсияи Русияро нишон диҳед?",
-    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/686f6458002f471641a1/view?project=6721fc620035074537ed",
-    "options": ["1", "2", "3"],
-    "correctAnswer": "2"
-  }
-},
-     {
-    "type": "text",
-    "ru": {
-      "text": "Какое право Конституция Российской Федерации гарантирует иностранному гражданину на территории Российской Федерации?",
-      "options": ["избирать в органы государственной власти", "трудиться, выбирать род занятий", "занимать государственные должности"],
-      "correctAnswer": "трудиться, выбирать род занятий"
-    },
-    "uz": {
-      "text": "Rossiya Federatsiyasining Konstitutsiyasi chet ellik fuqarolarga qanday huquqni kafolatlaydi?",
-      "options": ["davlat hokimiyati organlariga saylash", "mehnat qilish, kasb tanlash", "davlat lavozimlarini egallash"],
-      "correctAnswer": "mehnat qilish, kasb tanlash"
-    },
-    "en": {
-      "text": "What right does the Constitution of the Russian Federation guarantee to a foreign citizen on the territory of the Russian Federation?",
-      "options": ["to elect to government bodies", "to work, to choose an occupation", "to hold state positions"],
-      "correctAnswer": "to work, to choose an occupation"
-    },
-    "tj": {
-      "text": "Каъ право Конститутсияи Федератсияи Русия барои шаҳрвандони хориҷӣ дар ҳудуди Федератсияи Русия кафолат медиҳад?",
-      "options": ["интихоб кардан ба органҳои ҳокимияти давлат", "кор кардан, интихоби касб", "ишғол кардани мансабҳои давлатӣ"],
-      "correctAnswer": "кор кардан, интихоби касб"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Имеет ли иностранный гражданин право приобретать недвижимое имущество на территории Российской Федерации?",
-      "options": ["имеет", "не имеет", "только с разрешения суда"],
-      "correctAnswer": "имеет"
-    },
-    "uz": {
-      "text": "Chet ellik fuqaro Rossiya Federatsiyasining hududida ko'chmas mulk sotib olish huquqiga egami?",
-      "options": ["egasi", "egasi emas", "faqat sudning ruxsati bilan"],
-      "correctAnswer": "egasi"
-    },
-    "en": {
-      "text": "Does a foreign citizen have the right to acquire real estate on the territory of the Russian Federation?",
-      "options": ["yes", "no", "only with court permission"],
-      "correctAnswer": "yes"
-    },
-    "tj": {
-      "text": "Шаҳрвандони хориҷӣ ҳуқуқи ба даст овардани амволи ғайриманқул дар ҳудуди Федератсияи Русияро доранд?",
-      "options": ["дорад", "надорад", "фақат бо иҷозати суд"],
-      "correctAnswer": "дорад"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Имеет ли право иностранный гражданин вступить в брак на территории Российской Федерации?",
-      "options": ["да", "да, но только с гражданками Российской Федерации", "нет"],
-      "correctAnswer": "да"
-    },
-    "uz": {
-      "text": "Chet ellik fuqaro Rossiya Federatsiyasining hududida nikohga kirish huquqiga egami?",
-      "options": ["ha", "ha, lekin faqat Rossiya Federatsiyasining fuqarolari bilan", "yo'q"],
-      "correctAnswer": "ha"
-    },
-    "en": {
-      "text": "Does a foreign citizen have the right to marry in the territory of the Russian Federation?",
-      "options": ["yes", "yes, but only with citizens of the Russian Federation", "no"],
-      "correctAnswer": "yes"
-    },
-    "tj": {
-      "text": "Шаҳрвандони хориҷӣ ҳуқуқи ба ақди никоҳ дар ҳудуди Федератсияи Русияро доранд?",
-      "options": ["ҳа", "ҳа, вале танҳо бо шаҳрвандони Федератсияи Русия", "не"],
-      "correctAnswer": "ҳа"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Какую цель въезда нужно указать в миграционной карте, чтобы получить патент?",
-      "options": ["отдых", "работа", "частная"],
-      "correctAnswer": "работа"
-    },
-    "uz": {
-      "text": "Patent olish uchun migratsiya kartasida qanday maqsadni ko'rsatish kerak?",
-      "options": ["dam olish", "ishlash", "xususiy"],
-      "correctAnswer": "ishlash"
-    },
-    "en": {
-      "text": "What purpose of entry should be indicated in the migration card to obtain a patent?",
-      "options": ["vacation", "work", "private"],
-      "correctAnswer": "work"
-    },
-    "tj": {
-      "text": "Кадом мақсадро барои гирифтани патент дар кортҳои муҳоҷират бояд нишон дод?",
-      "options": ["истироҳат", "кор", "шахсӣ"],
-      "correctAnswer": "кор"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Для получения патента иностранный гражданин предоставляет в уполномоченную организацию документы в течение",
-      "options": ["30 календарных дней", "20 календарных дней", "10 календарных дней"],
-      "correctAnswer": "30 календарных дней"
-    },
-    "uz": {
-      "text": "Patent olish uchun chet ellik fuqaro vakolatli tashkilotga hujjatlarni necha kun ichida topshirishi kerak?",
-      "options": ["30 ta kalendar kun", "20 ta kalendar kun", "10 ta kalendar kun"],
-      "correctAnswer": "30 ta kalendar kun"
-    },
-    "en": {
-      "text": "To obtain a patent, the foreign citizen must submit documents to the authorized organization within",
-      "options": ["30 calendar days", "20 calendar days", "10 calendar days"],
-      "correctAnswer": "30 calendar days"
-    },
-    "tj": {
-      "text": "Барои гирифтани патент, шаҳрвандони хориҷӣ бояд дар муддати",
-      "options": ["30 рӯз", "20 рӯз", "10 рӯз"],
-      "correctAnswer": "30 рӯз"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Иностранный гражданин, не покинувший территории Российской Федерации в установленный срок, подлежит депортации. Верно ли это суждение?",
-      "options": ["верно", "неверно"],
-      "correctAnswer": "верно"
-    },
-    "uz": {
-      "text": "Rossiya Federatsiyasining hududini belgilangan muddatda tark etmagan chet ellik fuqaro deportatsiyaga tortiladi. Bu to'g'ri fikrmi?",
-      "options": ["to'g'ri", "noto'g'ri"],
-      "correctAnswer": "to'g'ri"
-    },
-    "en": {
-      "text": "A foreign citizen who has not left the territory of the Russian Federation within the established period is subject to deportation. Is this statement correct?",
-      "options": ["correct", "incorrect"],
-      "correctAnswer": "correct"
-    },
-    "tj": {
-      "text": "Шаҳрвандони хориҷӣ, ки дар муҳлат муайяншуда ҳудуди Федератсияи Русияро тарк накардаанд, ба депортация дучор мегарданд. Оё ин иддао дуруст аст?",
-      "options": ["дуруст", "нодуруст"],
-      "correctAnswer": "дуруст"
-    }
-  }
-    ];
-const questionsVNZh = [
-     
-     {
-    "type": "audioGroup",
-    "audioUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/686f896d0023e863ca0b/view?project=6721fc620035074537ed",
-    "ru": {
-      "text": "Прослушайте диалог и выберите правильный ответ в заданиях 1 и 2. Они говорят",
-      "subQuestions": [
-        { "text": "Они говорят", "options": ["в магазине", "в автомастерской", "в центре тестирования"], "correctAnswer": "в центре тестирования" },
-        { "text": "С собой необходимо иметь", "options": ["миграционную карту", "банковскую карту", "медицинскую справку"], "correctAnswer": "миграционную карту" }
-      ]
-    },
-    "uz": {
-      "text": "Dialogni tinglang va 1 va 2-javob savollariga to'g'ri javobni tanlang.",
-      "subQuestions": [
-        { "text": "Ular nima deyishadi?", "options": ["do'konda", "avtomobil ustaxonasida", "test markazida"], "correctAnswer": "test markazida" },
-        { "text": "Nima bilan kelish kerak?", "options": ["migratsiya kartasi", "bank kartasi", "tibbiy guvohnoma"], "correctAnswer": "migratsiya kartasi" }
-      ]
-    },
-    "en": {
-      "text": "Listen to the dialogue and choose the correct answer for questions 1 and 2. They say",
-      "subQuestions": [
-        { "text": "They say", "options": ["in the store", "in the car repair shop", "in the testing center"], "correctAnswer": "in the testing center" },
-        { "text": "You need to have", "options": ["migration card", "bank card", "medical certificate"], "correctAnswer": "migration card" }
-      ]
-    },
-    "tj": {
-      "text": "Suhbatni tinglang va 1 va 2-savollar uchun to'g'ri javobni tanlang.",
-      "subQuestions": [
-        { "text": "Ular nima deyishadi?", "options": ["do'konda", "avtomobil ustaxonasida", "test markazida"], "correctAnswer": "test markazida" },
-        { "text": "Nima bilan kelish kerak?", "options": ["migratsiya kartasi", "bank kartasi", "tibbiy guvohnoma"], "correctAnswer": "migratsiya kartasi" }
-      ]
-    }
-  },
-  {
-    "type": "audioGroup",
-    "audioUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/686f8c3800035d92e2bc/view?project=6721fc620035074537ed",
-    "ru": {
-      "text": "Прослушайте объявление и выберите правильный ответ в заданиях 3 и 4. Вы можете услышать это объявление",
-      "subQuestions": [
-        { "text": "Вы можете услышать это объявление", "options": ["в торговом центре", "в банке", "в поликлинике"], "correctAnswer": "в торговом центре" },
-        { "text": "О потерянных вещах можно спросить", "options": ["у покупателей", "у администратора", "у директора магазина"], "correctAnswer": "у администратора" }
-      ]
-    },
-    "uz": {
-      "text": "E'lonni tinglang va 3 va 4-savollar uchun to'g'ri javobni tanlang. Siz bu e'lonni eshitasiz",
-      "subQuestions": [
-        { "text": "Siz bu e'lonni qayerda eshitasiz?", "options": ["savdo markazida", "bankda", "poliklinikada"], "correctAnswer": "savdo markazida" },
-        { "text": "Yo'qolgan narsalar haqida so'rash mumkin", "options": ["mijozlardan", "administratoridan", "do'kon direktoridan"], "correctAnswer": "administratoridan" }
-      ]
-    },
-    "en": {
-      "text": "Listen to the announcement and choose the correct answer for questions 3 and 4. You can hear this announcement",
-      "subQuestions": [
-        { "text": "Where can you hear this announcement?", "options": ["in the shopping mall", "in the bank", "in the clinic"], "correctAnswer": "in the shopping mall" },
-        { "text": "You can ask about lost items", "options": ["from the customers", "from the administrator", "from the store manager"], "correctAnswer": "from the administrator" }
-      ]
-    },
-    "tj": {
-      "text": "E'lonni tinglang va 3 va 4-savollar uchun to'g'ri javobni tanlang. Siz bu e'lonni eshitasiz",
-      "subQuestions": [
-        { "text": "Siz bu e'lonni qayerda eshitasiz?", "options": ["savdo markazida", "bankda", "poliklinikada"], "correctAnswer": "savdo markazida" },
-        { "text": "Yo'qolgan narsalar haqida so'rash mumkin", "options": ["mijozlardan", "administratoridan", "do'kon direktoridan"], "correctAnswer": "administratoridan" }
-      ]
-    }
-  },
-      {
-  "type": "text",
-  "ru": {
-    "text": "Прочитайте объявление и выберите правильный ответ. \"Уважаемые граждане! Оплачивайте свой проезд вовремя!\"",
-    "options": ["в парке", "в автобусе", "в самолёте"],
-    "correctAnswer": "в автобусе"
-  },
-  "uz": {
-    "text": "E'lonni o'qing va to'g'ri javobni tanlang. \"Hurmatli fuqarolar! Yo'l haqini o'z vaqtida to'lang!\"",
-    "options": ["bog'da", "avtobusda", "samolyotda"],
-    "correctAnswer": "avtobusda"
-  },
-  "en": {
-    "text": "Read the announcement and choose the correct answer. \"Dear citizens! Pay your fare on time!\"",
-    "options": ["in the park", "in the bus", "in the plane"],
-    "correctAnswer": "in the bus"
-  },
-  "tj": {
-    "text": "Эълонро хонед ва ҷавоби дурустро интихоб кунед. \"Шаҳрвандони гиромӣ! Кирояи худро сари вақт пардохт кунед!\"",
-    "options": ["дар боғ", "дар автобус", "дар ҳавопаймо"],
-    "correctAnswer": "дар автобус"
+  tj: {
+    text: "Диалогро оғоз кунед.\n\nШумо ба мағоза даромадед ва мехоҳед телефон харед. Ба фурӯшанда салом диҳед, муроҷиат кунед ва нархи телефонро пурсед.",
+    exampleAnswer: "Салом! Хайрли рӯз! Лутфан, ин телефон чанд мешавад?\nСалом! Ин телефонро дида баромадам? Нархаш чанд аст?"
   }
 },
 {
-  "type": "text",
-  "ru": {
-    "text": "Прочитайте текст и выберите правильный ответ.\n\"Уважаемые гости! Приглашаем Вас на автобусную экскурсию по городу. Экскурсия будет 12 мая (во вторник) с 10 до 14 часов. Ждём Вас около торгового центра «Мир».\nЭкскурсия начинается",
-    "options": ["в 10 часов", "в 12 часов", "в 14 часов"],
-    "correctAnswer": "в 10 часов"
+  type: "audioOnly",
+  audioUrl: "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/684fac80003353a0283a/view?project=6721fc620035074537ed",
+  excludeFromStatistics: true,
+  ru: {
+    text: "Примите участие в диалоге.\n\nОтветьте на вопросы собеседника полными предложениями.",
+    transcript: "— У вас много друзей? Кто они?\n— Как часто вы встречаетесь и где?\n— Как вы думаете, может ли человек прожить жизнь без друзей?\n— Какое лучшее место для встречи с друзьями?",
+    exampleAnswer: "У меня не очень много друзей, но есть несколько близких. Они мои одноклассники и коллеги по работе.\nМы встречаемся примерно раз в неделю, обычно в кафе или парке.\nЯ думаю, что человек может прожить без друзей, но это будет очень тяжело и грустно. Друзья помогают в трудные моменты.\nЛучшее место для встречи с друзьями — это уютное кафе или дом у кого-то из нас."
   },
-  "uz": {
-    "text": "Matnni o'qing va to'g'ri javobni tanlang.\n\"Hurmatli mehmonlar! Sizni shahar bo'ylab avtobus ekskursiyasiga taklif qilamiz. Ekskursiya 12-mayda (seshanba kuni) soat 10 dan 14 gacha bo'lib o'tadi. Sizni 'Mir' savdo markazi yaqinida kutamiz.\nEkskursiya boshlanadi",
-    "options": ["soat 10 da", "soat 12 da", "soat 14 da"],
-    "correctAnswer": "soat 10 da"
+  en: {
+    text: "Take part in the dialogue.\n\nAnswer the interlocutor's questions in full sentences.",
+    transcript: "— Do you have many friends? Who are they?\n— How often do you meet and where?\n— Do you think a person can live life without friends?\n— What is the best place to meet friends?",
+    exampleAnswer: "I don't have many friends, but I have a few close ones. They are my classmates and colleagues from work.\nWe meet about once a week, usually in a cafe or in the park.\nI think a person can live without friends, but it would be very difficult and sad. Friends help in tough times.\nThe best place to meet friends is a cozy cafe or someone's home."
   },
-  "en": {
-    "text": "Read the text and choose the correct answer.\n\"Dear guests! We invite you to a bus tour around the city. The tour will take place on May 12th (Tuesday) from 10 AM to 2 PM. We are waiting for you near the 'Mir' shopping center.\nThe tour starts",
-    "options": ["at 10 AM", "at 12 PM", "at 2 PM"],
-    "correctAnswer": "at 10 AM"
+  uz: {
+    text: "Dialogda ishtirok eting.\n\nSuhbatdoshning savollariga to'liq jumlalar bilan javob bering.",
+    transcript: "— Sizda ko'p do'stlaringiz bormi? Ular kimlar?\n— Qanchalik tez-tez uchrashasiz va qayerda?\n— Sizningcha, inson do'stsiz hayot kechira oladimi?\n— Do'stlar bilan uchrashish uchun eng yaxshi joy qaysi?",
+    exampleAnswer: "Menda juda ko'p do'stlar yo'q, lekin bir necha yaqin do'stlarim bor. Ular mening sinfdoshlarim va ish joyidagi hamkasblarim.\nBiz taxminan haftada bir marta uchrashamiz, odatda kafeda yoki parkda.\nMenimcha, inson do'stsiz yashay oladi, lekin bu juda qiyin va g'amgin bo'ladi. Do'stlar qiyin paytlarda yordam beradi.\nDo'stlar bilan uchrashish uchun eng yaxshi joy — qulay kafe yoki birortamizning uyida."
   },
-  "tj": {
-    "text": "Мәтнро хонед ва ҷавоби дурустро интихоб кунед.\n\"Шаҳрвандони гиромӣ! Мо шуморо ба экскурсияи автобусӣ ба шаҳр даъват мекунем. Экскурсия 12 май (сешанба) аз соати 10 то 14 соат хоҳад буд. Мо шуморо дар наздикии маркази савдои 'Мир' интизорем.\nЭкскурсия оғоз меёбад",
-    "options": ["соати 10", "соати 12", "соати 14"],
-    "correctAnswer": "соати 10"
+  tj: {
+    text: "Дар диалог иштирок кунед.\n\nБа саволҳои ҳамсӯҳбат бо ҷумлаҳои пурра ҷавоб диҳед.",
+    transcript: "— Шумо дӯстони зиёд доред? Онҳо кӣ ҳастанд?\n— Чӣ қадар зуд-зуд вохӯрӣ мекунед ва дар куҷо?\n— Ба фикри шумо, одам метавонад бе дӯстон зиндагӣ кунад?\n— Беҳтарин ҷои вохӯрӣ бо дӯстон кадом аст?",
+    exampleAnswer: "Ман дӯстони зиёд надорам, аммо чанд дӯсти наздик дорам. Онҳо синфдошони ман ва ҳамкорҳои корӣ ҳастанд.\nМо тақрибан ҳар ҳафта як бор вохӯрӣ мекунем, одатан дар кафетерия ё дар боғ.\nБа фикри ман, одам метавонад бе дӯстон зиндагӣ кунад, аммо ин хеле душвор ва ғамгин хоҳад буд. Дӯстон дар лаҳзаҳои душвор кӯмак мерасонанд.\nБеҳтарин ҷои вохӯрӣ бо дӯстон — кафетерияи бароҳат ё хонаи яке аз мо."
   }
 },
-     {
-  "type": "textInput",
-  "ru": {
-    "text": "Прочитайте текст и вставьте пропущенное слово.\nБатыр приехал из Узбекистана. Батыр – Строитель.\nАнкета:\n1. Как Вас зовут? - Меня зовут Батыр.\n2. Откуда Вы приехали? - Я приехал из Узбекистана.\n3. Кто Вы по профессии? - Я _______.",
-    "correctAnswer": "строитель"
-  },
-  "uz": {
-    "text": "Matnni o'qing va bo'sh joyni to'ldiring.\nBatyir O'zbekistondan kelgan. Batyir – Quruvchi.\nAnketa:\n1. Ismingiz nima? - Mening ismim Batyir.\n2. Qayerdan keldingiz? - Men O'zbekistondan keldim.\n3. Kasbingiz nima? - Men _______.",
-    "correctAnswer": "quruvchi"
-  },
-  "en": {
-    "text": "Read the text and fill in the blank.\nBatyr came from Uzbekistan. Batyr is a Builder.\nQuestionnaire:\n1. What is your name? - My name is Batyr.\n2. Where did you come from? - I came from Uzbekistan.\n3. What is your profession? - I am ______.",
-    "correctAnswer": "builder"
-  },
-  "tj": {
-    "text": "Matnro o'qing va bo'sh joyni to'ldiring.\nBatyir O'zbekistondan kelgan. Batyir – Quruvchi.\nAnketa:\n1. Ismingiz nima? - Mening ismim Batyir.\n2. Qayerdan keldingiz? - Men O'zbekistondan keldim.\n3. Kasbingiz nima? - Men _______.",
-    "correctAnswer": "quruvchi"
-  }
-},
-
 {
-    "type": "text",
-    "ru": {
-      "text": "Сегодня суббота, а мама приехала вчера, ________________.",
-      "options": ["в среду", "в пятницу", "во вторник"],
-      "correctAnswer": "в пятницу"
-    },
-    "uz": {
-      "text": "Bugun shanba, lekin onam kecha keldi, ________________.",
-      "options": ["chorshanba", "juma", "seshanba"],
-      "correctAnswer": "juma"
-    },
-    "en": {
-      "text": "Today is Saturday, and my mom arrived yesterday, ________________.",
-      "options": ["on Wednesday", "on Friday", "on Tuesday"],
-      "correctAnswer": "on Friday"
-    },
-    "tj": {
-      "text": "Имрӯз шанбе аст, вале модарам дирӯз омад, ________________.",
-      "options": ["дар чоршанбе", "дар ҷумъа", "дар сешанбе"],
-      "correctAnswer": "дар ҷумъа"
-    }
+  type: "speaking",
+  excludeFromStatistics: true,
+  ru: {
+    text: "Подготовьте сообщение на заданную тему. Время на подготовку – до 3 мин. Ваш ответ должен быть полным.\n\nВы купили новую квартиру. Ваш новый знакомый попросил Вас рассказать об этой квартире.\nВаше сообщение должно содержать следующую информацию.\n1. В каком районе находится квартира?\n2. Почему Вы выбрали её?\n3. Какие места есть рядом? (парк, аптека, магазин и так далее)\n4. Какую мебель Вы купили?\n5. Когда и как Вы будете праздновать новоселье?",
+    exampleAnswer: "Недавно я купил новую квартиру в районе Хамовники в Москве. Это один из самых зелёных и престижных районов города.\nЯ выбрал именно эту квартиру, потому что она находится в новом жилом комплексе, там очень хорошая планировка — просторная кухня-гостиная, два больших окна и балкон. Кроме того, цена была вполне приемлемой для такого района.\nРядом с домом есть всё необходимое: большой парк с прудом буквально в пяти минутах ходьбы, круглосуточный супермаркет «Азбука Вкуса», аптека, несколько кафе, фитнес-центр и даже детская площадка.\nЯ уже купил основную мебель: кухонный гарнитур, диван, большой телевизор, кровать с ортопедическим матрасом и шкаф-купе в спальню. Остальное докуплю постепенно.\nНовоселье планирую отметить в ближайшие выходные — приглашу близких друзей и родителей. Будем устраивать небольшой ужин дома, закажем пиццу и суши, а потом, наверное, включим музыку и потанцуем. Хочу, чтобы получилось тепло и душевно."
   },
-  {
-    "type": "text",
-    "ru": {
-      "text": "В салоне сотовой связи я купил __________.",
-      "options": ["молоко", "куртку", "телефон"],
-      "correctAnswer": "телефон"
-    },
-    "uz": {
-      "text": "Mobil aloqa do'konida men __________ sotib oldim.",
-      "options": ["sut", "ko'ylak", "telefon"],
-      "correctAnswer": "telefon"
-    },
-    "en": {
-      "text": "In the mobile phone store, I bought __________.",
-      "options": ["milk", "jacket", "phone"],
-      "correctAnswer": "phone"
-    },
-    "tj": {
-      "text": "Дар мағозаи телефон ман __________ харидам.",
-      "options": ["сут", "курта", "телефон"],
-      "correctAnswer": "телефон"
-    }
+  en: {
+    text: "Prepare a message on the given topic. Preparation time – up to 3 minutes. Your response must be complete.\n\nYou have bought a new apartment. Your new acquaintance asked you to tell them about this apartment.\nYour message should include the following information:\n1. In which district is the apartment located?\n2. Why did you choose it?\n3. What places are nearby? (park, pharmacy, store, etc.)\n4. What furniture did you buy?\n5. When and how will you celebrate the housewarming?",
+    exampleAnswer: "Recently I bought a new apartment in the Khamovniki district in Moscow. It's one of the greenest and most prestigious areas of the city.\nI chose this particular apartment because it's in a new residential complex with a very good layout — a spacious kitchen-living room, two large windows, and a balcony. Besides, the price was quite reasonable for such a district.\nEverything you need is nearby: a large park with a pond just a five-minute walk away, a 24-hour Azbuka Vkusa supermarket, a pharmacy, several cafes, a fitness center, and even a children's playground.\nI've already bought the main furniture: a kitchen set, a sofa, a large TV, a bed with an orthopedic mattress, and a wardrobe in the bedroom. I'll buy the rest gradually.\nI'm planning to celebrate the housewarming next weekend — I'll invite close friends and my parents. We'll have a small dinner at home, order pizza and sushi, and then probably turn on some music and dance. I want it to be warm and heartfelt."
   },
-  {
-    "type": "text",
-    "ru": {
-      "text": "– Как вас зовут?\n– _____________ зовут Иван.",
-      "options": ["Мне", "Меня", "Я"],
-      "correctAnswer": "Меня"
-    },
-    "uz": {
-      "text": "– Ismingiz nima?\n– _____________ ismim Ivan.",
-      "options": ["Menga", "Meni", "Men"],
-      "correctAnswer": "Meni"
-    },
-    "en": {
-      "text": "– What is your name?\n– _____________ name is Ivan.",
-      "options": ["Me", "My", "I"],
-      "correctAnswer": "My"
-    },
-    "tj": {
-      "text": "– Шуморо чӣ ном мегузоранд?\n– _____________ номам Иван аст.",
-      "options": ["Ман", "Маро", "Мени"],
-      "correctAnswer": "Мени"
-    }
+  uz: {
+    text: "Berilgan mavzuga xabar tayyorlang. Tayyorgarlik vaqti – 3 daqiqagacha. Javobingiz to'liq bo'lishi kerak.\n\nSiz yangi kvartira sotib oldingiz. Yangi tanishingiz sizdan bu kvartira haqida gapirib berishingizni so'radi.\nXabaringiz quyidagi ma'lumotlarni o'z ichiga olishi kerak:\n1. Kvartira qaysi tumanda joylashgan?\n2. Nega aynan uni tanladingiz?\n3. Yaqin atrofda qanday joylar bor? (park, dorixona, do'kon va hokazo)\n4. Qanday mebel sotib oldingiz?\n5. Yangi uyga ko'chib o'tishni qachon va qanday nishonlaysiz?",
+    exampleAnswer: "Yaqinda men Moskvadagi Xamovniki tumanida yangi kvartira sotib oldim. Bu shaharning eng yashil va nufuzli tumanlaridan biri.\nMen aynan shu kvartirani tanladim, chunki u yangi turar-joy majmuasida joylashgan, juda yaxshi rejalashtirilgan — keng oshxona-mehmonxona, ikkita katta deraza va balkon. Bundan tashqari, bunday tuman uchun narx juda munosib edi.\nUy yonida hamma narsa bor: besh daqiqa yurish masofasida katta hovuzli park, «Azbuka Vkusa» doimiy ishlaydigan supermarketi, dorixona, bir nechta kafe, fitnes-markaz va hatto bolalar maydonchasi.\nMen asosiy mebellarni sotib oldim: oshxona garnituri, divan, katta televizor, ortopedik matrasli karavot va yotoqxonaga shkaf-kupe. Qolganini asta-sekin sotib olaman.\nYangilikni keyingi dam olish kunlarida nishonlayman — yaqin do'stlarim va ota-onamni taklif qilaman. Uyda kichik kechki ovqat uyushtiramiz, pitsa va sushi buyurtma qilamiz, keyin musiqa qo'yib raqsga tushamiz. Issiq va samimiy bo'lishini xohlayman."
   },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Мы приехали в Россию, __________ здесь есть работа.",
-      "options": ["потому что", "поэтому", "чтобы"],
-      "correctAnswer": "потому что"
-    },
-    "uz": {
-      "text": "Biz Rossiyaga keldik, __________ bu yerda ish bor.",
-      "options": ["chunki", "shuning uchun", "uchun"],
-      "correctAnswer": "chunki"
-    },
-    "en": {
-      "text": "We came to Russia, __________ there is work here.",
-      "options": ["because", "therefore", "to"],
-      "correctAnswer": "because"
-    },
-    "tj": {
-      "text": "Мо ба Русия омадем, __________ ин ҷо кори мавҷуд аст.",
-      "options": ["чунки", "аз ин рӯ", "то"],
-      "correctAnswer": "чунки"
-    }
+  tj: {
+    text: "Мавзӯи додашударо омода кунед. Вақти омодагӣ – то 3 дақиқа. Ҷавоби шумо пурра бояд бошад.\n\nШумо хонаи нав харидед. Шиносои нави шумо аз шумо хоҳиш кард, ки дар бораи ин хона гап занед.\nПаёми шумо бояд маълумоти зеринро дар бар гирад:\n1. Хона дар кадом ноҳия ҷойгир аст?\n2. Чаро шумо онро интихоб кардед?\n3. Дар наздикиҳо кадом ҷойҳо ҳастанд? (боғ, доруҳо, мағоза ва ғайра)\n4. Кадом мебелро харидед?\n5. Навсозиро кай ва чӣ тавр ҷашн мегиред?",
+    exampleAnswer: "Наздикҳо ман дар ноҳияи Хамовникии Москва хонаи нав харидам. Ин яке аз ноҳияҳои сабз ва бонуфузи шаҳр аст.\nМан ин хонаро интихоб кардам, чунки он дар маҷмааи нави истиқоматӣ аст, банақшагирии хуб дорад — ошхонаи васеъ бо меҳмонхона, ду тирезаи калон ва балкон. Илова бар ин, нарх барои чунин ноҳия мувофиқ буд.\nДар наздикиҳо ҳама чиз ҳаст: панҷ дақиқа пиёда рафтан то боғи калон бо ҳавз, супермаркети «Азбука Вкуса», ки 24 соат кор мекунад, доруҳо, якчанд кафетерия, маркази фитнес ва ҳатто майдончаи бозии кӯдакон.\nМан мебели асосиро харидам: гарнитури ошхона, диван, телевизори калон, кати ортопедӣ бо матрас ва ҷевон-купе дар хобгоҳ. Боқимондаро тадриҷан мехарам.\nНавсозиро рӯзҳои истироҳати оянда ҷашн мегирам — дӯстони наздик ва падару модарамро даъват мекунам. Дар хона хӯроки шом хурд мегузорем, пицца ва суши фармоиш медиҳем, баъд мусиқӣ гузошта рақс мекунем. Мехоҳам гарм ва самими бошад."
+  }
+},
+{
+  type: "audio",
+  audioUrl: "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/684fac8a0004570cbfef/view?project=6721fc620035074537ed",
+  ru: {
+    text: "Прослушайте диалог и определите, где происходит разговор. Выберите правильный ответ.\nОни говорят",
+    options: ["в кафе", "дома", "в поликлинике"],
+    correctAnswer: "в кафе",
+    transcript: "Официант:\nЗдравствуйте. Вы ознакомились с меню? Что будете заказывать?\nКлиент:\nЧай и три пирожных.\nОфициант:\nЧай чёрный или зелёный?\nКлиент:\nЧёрный, пожалуйста.\nОфициант:\nХорошо. Итак, чёрный чай и три пирожных, правильно?\nКлиент:\nДа, всё верно."
   },
-  {
-    "type": "text",
-    "ru": {
-      "text": "4 ноября в России празднуют",
-      "options": ["Международный женский день", "День народного единства", "День Победы"],
-      "correctAnswer": "День народного единства"
-    },
-    "uz": {
-      "text": "4-noyabrda Rossiyada __________ nishonlanadi.",
-      "options": ["Xalqaro ayollar kuni", "Xalq birligi kuni", "G'alaba kuni"],
-      "correctAnswer": "Xalq birligi kuni"
-    },
-    "en": {
-      "text": "On November 4th in Russia, they celebrate",
-      "options": ["International Women's Day", "Unity Day", "Victory Day"],
-      "correctAnswer": "Unity Day"
-    },
-    "tj": {
-      "text": "4-ноябр дар Русия __________ таҷлил мегардад.",
-      "options": ["Рӯзи байналмилалии занон", "Рӯзи иттиҳоди мардум", "Рӯзи Пирӯзӣ"],
-      "correctAnswer": "Рӯзи иттиҳоди мардум"
-    }
+  en: {
+    text: "Listen to the dialogue and determine where the conversation is taking place. Choose the correct answer.\nThey are talking",
+    options: ["in a cafe", "at home", "in a polyclinic"],
+    correctAnswer: "in a cafe",
+    transcript: "Waiter:\nHello. Have you looked at the menu? What would you like to order?\nCustomer:\nTea and three pastries.\nWaiter:\nBlack tea or green tea?\nCustomer:\nBlack, please.\nWaiter:\nGood. So, black tea and three pastries, right?\nCustomer:\nYes, that's correct."
   },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Столица Российской Федерации - __________.",
-      "options": ["Москва", "Екатеринбург", "Самара"],
-      "correctAnswer": "Москва"
-    },
-    "uz": {
-      "text": "Rossiya Federatsiyasining poytaxti - __________.",
-      "options": ["Moskva", "Yekaterinburg", "Samara"],
-      "correctAnswer": "Moskva"
-    },
-    "en": {
-      "text": "The capital of the Russian Federation is __________.",
-      "options": ["Moscow", "Yekaterinburg", "Samara"],
-      "correctAnswer": "Moscow"
-    },
-    "tj": {
-      "text": "Пойтахти Федератсияи Русия - __________.",
-      "options": ["Москва", "Екатеринбург", "Самара"],
-      "correctAnswer": "Москва"
-    }
+  uz: {
+    text: "Dialogni tinglang va suhbat qayerda bo'layotganini aniqlang. To'g'ri javobni tanlang.\nUlar gaplashmoqda",
+    options: ["kafeda", "uyda", "poliklinikada"],
+    correctAnswer: "kafeda",
+    transcript: "Ofitsiant:\nSalom. Menyuni ko'rib chiqdingizmi? Nima buyurtma berasiz?\nMijoz:\nChoy va uchta pishiriq.\nOfitsiant:\nQora choymi yoki yashil choymi?\nMijoz:\nQora, iltimos.\nOfitsiant:\nYaxshi. Demak, qora choy va uchta pishiriq, to'g'rimi?\nMijoz:\nHa, hammasi to'g'ri."
   },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Великая Отечественная война закончилась ______________.",
-      "options": ["в 1917 г.", "в 1945 г.", "в 1980 г."],
-      "correctAnswer": "в 1945 г."
-    },
-    "uz": {
-      "text": "Buyuk Vatan urushi __________ yakunlandi.",
-      "options": ["1917-yilda", "1945-yilda", "1980-yilda"],
-      "correctAnswer": "1945-yilda"
-    },
-    "en": {
-      "text": "The Great Patriotic War ended ______________.",
-      "options": ["in 1917", "in 1945", "in 1980"],
-      "correctAnswer": "in 1945"
-    },
-    "tj": {
-      "text": "Ҷанги Бузурги Ватанӣ дар ______________ анҷом ёфт.",
-      "options": ["в 1917 г.", "в 1945 г.", "в 1980 г."],
-      "correctAnswer": "в 1945 г."
-    }
+  tj: {
+    text: "Суҳбатро гӯш кунед ва муайян кунед, ки гуфтугӯ дар куҷо мегузарад. Ҷавоби дурустро интихоб кунед.\nОнҳо гап мезананд",
+    options: ["дар кафетерия", "дар хона", "дар поликлиника"],
+    correctAnswer: "дар кафетерия",
+    transcript: "Официант:\nСалом. Шумо менюро дида баромадед? Чӣ фармоиш медиҳед?\nМизоҷ:\nЧой ва се пирожное.\nОфициант:\nЧойи сиёҳ ё сабз?\nМизоҷ:\nСиёҳ, лутфан.\nОфициант:\nХуб. Пас, чойи сиёҳ ва се пирожное, дуруст?\nМизоҷ:\nҲа, ҳамааш дуруст."
+  }
+},
+{
+  type: "audio",
+  audioUrl: "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/684fac92001444964e0f/view?project=6721fc620035074537ed",
+  ru: {
+    text: "Прослушайте объявление и выберите правильный ответ.\nВ здании вокзала есть",
+    options: ["магазин", "аптека", "гостиница"],
+    correctAnswer: "гостиница",
+    transcript: "Объявление:\nУважаемые пассажиры!\nЕсли вы только приехали в наш город и вам нужна гостиница, обратитесь в гостиницу, которая находится в здании вокзала."
   },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Содружество Независимых Государств (СНГ) было образовано после",
-      "options": ["распада СССР в 1991 г.", "Великой Отечественной войны в 1941–1945 гг.", "Великой российской революции 1917–1922 гг."],
-      "correctAnswer": "распада СССР в 1991 г."
-    },
-    "uz": {
-      "text": "Mustaqil Davlatlar Hamdo'stligi (MDH) __________ tashkil etilgan.",
-      "options": ["SSSRning parchalanishidan so'ng 1991-yilda", "Buyuk Vatan urushi 1941-1945-yillarda", "Rossiya inqilobi 1917-1922-yillarda"],
-      "correctAnswer": "SSSRning parchalanishidan so'ng 1991-yilda"
-    },
-    "en": {
-      "text": "The Commonwealth of Independent States (CIS) was formed after",
-      "options": ["the collapse of the USSR in 1991", "The Great Patriotic War in 1941–1945", "The Great Russian Revolution of 1917–1922"],
-      "correctAnswer": "the collapse of the USSR in 1991"
-    },
-    "tj": {
-      "text": "Созмонҳои кишварҳои мустақил (СКМ) пас аз",
-      "options": ["парчомаи СССР дар 1991 сол", "Ҷанги Бузурги Ватанӣ дар 1941–1945 солҳо", "Инқилоби русии бузург дар 1917–1922 солҳо"],
-      "correctAnswer": "парчомаи СССР дар 1991 сол"
-    }
+  en: {
+    text: "Listen to the announcement and choose the correct answer.\nIn the railway station building there is",
+    options: ["a shop", "a pharmacy", "a hotel"],
+    correctAnswer: "a hotel",
+    transcript: "Announcement:\nDear passengers!\nIf you have just arrived in our city and need a hotel, go to the hotel located in the railway station building."
   },
+  uz: {
+    text: "E'lonni tinglang va to'g'ri javobni tanlang.\nVokzal binosida bor",
+    options: ["do'kon", "dorixona", "mehmonxona"],
+    correctAnswer: "mehmonxona",
+    transcript: "E'lon:\nHurmatli yo'lovchilar!\nAgar siz hozirgina shahrimizga kelgan bo'lsangiz va mehmonxona kerak bo'lsa, vokzal binosida joylashgan mehmonxonaga murojaat qiling."
+  },
+  tj: {
+    text: "Эълонро гӯш кунед ва ҷавоби дурустро интихоб кунед.\nДар бинои вокзал ҳаст",
+    options: ["мағоза", "дорухона", "меҳмонхона"],
+    correctAnswer: "меҳмонхона",
+    transcript: "Эълон:\nМуҳтарам мусофирон!\nАгар шумо ҳозир ба шаҳри мо омада бошед ва ба шумо меҳмонхона лозим бошад, ба меҳмонхонае, ки дар бинои вокзал ҷойгир аст, муроҷиат кунед."
+  }
+},
+{
+  type: "audio",
+  audioUrl: "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/684fac9a00356f904b8a/view?project=6721fc620035074537ed",
+  ru: {
+    text: "Прослушайте начало диалога и выберите правильную ответную реплику.",
+    options: ["Я живу здесь с женой.", "У меня большая семья.", "Моя жена работает."],
+    correctAnswer: "Я живу здесь с женой.",
+    transcript: "Вы живёте в Туле с семьёй или один?"
+  },
+  en: {
+    text: "Listen to the beginning of the dialogue and choose the correct response.",
+    options: ["I live here with my wife.", "I have a large family.", "My wife works."],
+    correctAnswer: "I live here with my wife.",
+    transcript: "Do you live in Tula with your family or alone?"
+  },
+  uz: {
+    text: "Dialogning boshlanishini tinglang va to'g'ri javob replikasini tanlang.",
+    options: ["Men bu yerda xotinim bilan yashayman.", "Menda katta oila bor.", "Xotinim ishlaydi."],
+    correctAnswer: "Men bu yerda xotinim bilan yashayman.",
+    transcript: "Siz Tulada oilangiz bilan yashaysizmi yoki yolg'iz?"
+  },
+  tj: {
+    text: "Оғози диалогро гӯш кунед ва ҷавоби мувофиқро интихоб кунед.",
+    options: ["Ман дар ин ҷо бо занаш зиндагӣ мекунам.", "Ман оилаи калон дорам.", "Занаш кор мекунад."],
+    correctAnswer: "Ман дар ин ҷо бо занаш зиндагӣ мекунам.",
+    transcript: "Шумо дар Тӯла бо оила зиндагӣ мекунед ё танҳо?"
+  }
+},
+{
+  type: "audioGroup",
+  audioUrl: "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/684facba00177addca7f/view?project=6721fc620035074537ed",
+  ru: {
+    text: "Прослушайте объявление и выберите правильный ответ в заданиях 1 и 2.",
+    transcript: "Объявление:\nСкоро откроет свои двери новый торговый комплекс!\nНа первом этаже расположен супермаркет бытовой техники, магазины одежды и обуви, детских товаров, а также гипермаркет «Ашан».\nНа втором этаже находится ресторанная зона, где можно вкусно поесть. Здесь же откроется каток — опытные тренеры по фигурному катанию будут проводить тренировки для детей. Для самых маленьких посетителей работает детский городок, где родители смогут на время оставить ребёнка под присмотром воспитателей.\nНа третьем этаже расположены химчистка, ателье и туристическое агентство.",
+    subQuestions: [
       {
-        type: "text",
-        ru: {
-          text: "Укажите флаг Российской Федерации?",
-          imageUrl: "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/686f644b001ff32b4f5e/view?project=6721fc620035074537ed",
-          options: ["1", "2", "3"],
-          correctAnswer: "2"
-        },
-        uz: {
-          text: "Rossiya Federatsiyasi bayrog'ini ko'rsating?",
-          options: ["1", "2", "3"],
-          correctAnswer: "2"
-        },
-        en: {
-          text: "Indicate the flag of the Russian Federation?",
-          options: ["1", "2", "3"],
-          correctAnswer: "2"
-        },
-        tj: {
-          text: "Парчами Федератсияи Русияро нишон диҳед?",
-          options: ["1", "2", "3"],
-          correctAnswer: "2"
-        }
+        text: "Детскую одежду можно купить",
+        options: ["на первом этаже", "на втором этаже", "на третьем этаже"],
+        correctAnswer: "на первом этаже"
       },
       {
-    "type": "text",
-    "ru": {
-      "text": "Статья 62 Конституции Российской Федерации определяет статус иностранных граждан на территории Российской Федерации. Согласно этой статье",
-      "options": [
-        "иностранные граждане пользуются всеми правами и несут обязанности наравне с гражданами Российской Федерации",
-        "иностранные граждане пользуются правами и несут обязанности наравне с гражданами Российской Федерации, кроме случаев, установленных федеральным законом или международным договором Российской Федерации",
-        "иностранные граждане не обладают никакими правами на территории Российской Федерации"
-      ],
-      "correctAnswer": "иностранные граждане пользуются правами и несут обязанности наравне с гражданами Российской Федерации, кроме случаев, установленных федеральным законом или международным договором Российской Федерации"
-    },
-    "uz": {
-      "text": "Rossiya Federatsiyasi Konstitutsiyasining 62-moddasi chet ellik fuqarolar statusini belgilaydi. Ushbu modda bo'yicha",
-      "options": [
-        "chet ellik fuqarolar Rossiya Federatsiyasi fuqarolari bilan teng ravishda barcha huquqlardan foydalana oladi va majburiyatlarni bajaradi",
-        "chet ellik fuqarolar Rossiya Federatsiyasi fuqarolari bilan teng ravishda huquqlarga ega va majburiyatlarni bajaradi, federal qonun yoki Rossiya Federatsiyasining xalqaro shartnomalari bilan belgilangan holatlar bundan mustasno",
-        "chet ellik fuqarolar Rossiya Federatsiyasida hech qanday huquqlarga ega emas"
-      ],
-      "correctAnswer": "chet ellik fuqarolar Rossiya Federatsiyasi fuqarolari bilan teng ravishda huquqlarga ega va majburiyatlarni bajaradi, federal qonun yoki Rossiya Federatsiyasining xalqaro shartnomalari bilan belgilangan holatlar bundan mustasno"
-    },
-    "en": {
-      "text": "Article 62 of the Constitution of the Russian Federation defines the status of foreign citizens on the territory of the Russian Federation. According to this article",
-      "options": [
-        "foreign citizens enjoy all rights and bear obligations on an equal footing with citizens of the Russian Federation",
-        "foreign citizens enjoy rights and bear obligations on an equal footing with citizens of the Russian Federation, except in cases established by federal law or international treaties of the Russian Federation",
-        "foreign citizens have no rights on the territory of the Russian Federation"
-      ],
-      "correctAnswer": "foreign citizens enjoy rights and bear obligations on an equal footing with citizens of the Russian Federation, except in cases established by federal law or international treaties of the Russian Federation"
-    },
-    "tj": {
-      "text": "Моддаи 62 Конститутсияи Федератсияи Русия муайян мекунад, ки статуси шаҳрвандони хориҷӣ дар қаламрави Федератсияи Русия чӣ гуна аст. Бино бар ин модда",
-      "options": [
-        "шаҳрвандони хориҷӣ ҳамаи ҳуқуқҳоро доранд ва баробар бо шаҳрвандони Федератсияи Русия вазифаҳоро ба уҳда доранд",
-        "шаҳрвандони хориҷӣ ҳуқуқҳои худро доранд ва баробар бо шаҳрвандони Федератсияи Русия вазифаҳоро ба уҳда доранд, ба истиснои ҳолатҳое, ки аз ҷониби қонуни федералӣ ё шартномаи байналмилалии Федератсияи Русия муайян шудааст",
-        "шаҳрвандони хориҷӣ дар қаламрави Федератсияи Русия ҳеҷ ҳуқуқе надоранд"
-      ],
-      "correctAnswer": "шаҳрвандони хориҷӣ ҳуқуқҳои худро доранд ва баробар бо шаҳрвандони Федератсияи Русия вазифаҳоро ба уҳда доранд, ба истиснои ҳолатҳое, ки аз ҷониби қонуни федералӣ ё шартномаи байналмилалии Федератсияи Русия муайян шудааст"
-    }
+        text: "На втором этаже откроется",
+        options: ["каток", "бассейн", "фитнес-центр"],
+        correctAnswer: "каток"
+      },
+      {
+        text: "Для маленьких детей будет работать",
+        options: ["начальная школа", "детский сад", "детский городок"],
+        correctAnswer: "детский городок"
+      }
+    ]
   },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Где происходит регистрация брака в Российской Федерации?",
-      "options": [
-        "в суде",
-        "в отделе ЗАГС (записи актов гражданского состояния)",
-        "в полиции"
-      ],
-      "correctAnswer": "в отделе ЗАГС (записи актов гражданского состояния)"
-    },
-    "uz": {
-      "text": "Rossiya Federatsiyasida nikohni ro'yxatdan o'tkazish qayerda amalga oshiriladi?",
-      "options": [
-        "sudda",
-        "ZAGS (Fuqarolik holati aktlarini ro'yxatga olish) bo'limida",
-        "politsiyada"
-      ],
-      "correctAnswer": "ZAGS (Fuqarolik holati aktlarini ro'yxatga olish) bo'limida"
-    },
-    "en": {
-      "text": "Where is marriage registration carried out in the Russian Federation?",
-      "options": [
-        "in court",
-        "at the registry office (civil status records)",
-        "at the police station"
-      ],
-      "correctAnswer": "at the registry office (civil status records)"
-    },
-    "tj": {
-      "text": "К where is nikoh ro'yxatdan o'tkaziladi?",
-      "options": [
-        "суд",
-        "ЗАГС (рўйхатдан ўтказиш фуқаролик ҳолатлари)",
-        "полиция"
-      ],
-      "correctAnswer": "ЗАГС (фуқаролик ҳолатлари"
-    }
+  en: {
+    text: "Listen to the announcement and choose the correct answers for questions 1 and 2.",
+    transcript: "Announcement:\nA new shopping complex will soon open its doors!\nOn the first floor there is a home appliances supermarket, clothing and footwear stores, children's goods stores, as well as the Auchan hypermarket.\nOn the second floor there is a restaurant area where you can eat deliciously. An ice rink will also open here — experienced figure skating coaches will conduct training sessions for children. For the youngest visitors, there is a children's play area where parents can leave their child under the supervision of educators for a while.\nOn the third floor there are a dry cleaner, a tailor shop, and a travel agency.",
+    subQuestions: [
+      {
+        text: "Children's clothing can be bought",
+        options: ["on the first floor", "on the second floor", "on the third floor"],
+        correctAnswer: "on the first floor"
+      },
+      {
+        text: "On the second floor will open",
+        options: ["an ice rink", "a swimming pool", "a fitness center"],
+        correctAnswer: "an ice rink"
+      },
+      {
+        text: "For young children there will be",
+        options: ["a primary school", "a kindergarten", "a children's play area"],
+        correctAnswer: "a children's play area"
+      }
+    ]
   },
-  {
-    "type": "text",
-    "ru": {
-      "text": "На территории Российской Федерации в отношении иностранного гражданина совершено преступление. Куда он должен обратиться за помощью?",
-      "options": [
-        "в полицию",
-        "в Министерство иностранных дел Российской Федерации",
-        "в посольство своей страны"
-      ],
-      "correctAnswer": "в полицию"
-    },
-    "uz": {
-      "text": "Rossiya Federatsiyasining hududida chet el fuqarosiga nisbatan jinoyat sodir etilgan. U qayerga murojaat qilishi kerak?",
-      "options": [
-        "politsiyaga",
-        "Rossiya Federatsiyasining Tashqi ishlar vazirligiga",
-        "o'z mamlakatining elchixonasiga"
-      ],
-      "correctAnswer": "politsiyaga"
-    },
-    "en": {
-      "text": "A crime has been committed against a foreign citizen on the territory of the Russian Federation. Where should he seek help?",
-      "options": [
-        "at the police station",
-        "at the Ministry of Foreign Affairs of the Russian Federation",
-        "at the embassy of his country"
-      ],
-      "correctAnswer": "at the police station"
-    },
-    "tj": {
-      "text": "Дар қаламрави Федератсияи Русия нисбат ба шаҳрвандони хориҷӣ ҷиноят содир шудааст. Ба куҷо бояд муроҷиат кунад?",
-      "options": [
-        "ба пулис",
-        "ба Вазорати корҳои хориҷии Федератсияи Русия",
-        "ба сафорати кишвари худ"
-      ],
-      "correctAnswer": "ба пулис"
-    }
+  uz: {
+    text: "E'lonni tinglang va 1 va 2-savollarga to'g'ri javob tanlang.",
+    transcript: "E'lon:\nTez orada yangi savdo majmuasi o'z eshiklarini ochadi!\nBirinchi qavatda maishiy texnika supermarketi, kiyim-kechak va poyabzal do'konlari, bolalar tovarlari do'konlari, shuningdek «Ashan» gipermarketi joylashgan.\nIkkinchi qavatda restoran zonasi joylashgan, u yerda mazali taomlar yeyish mumkin. Shu yerda ham konkida uchish maydonchasi ochiladi — tajribali figurali uchish murabbiylari bolalar uchun mashg'ulotlar o'tkazadi. Eng kichik tashrif buyuruvchilar uchun bolalar shaharchasi ishlaydi, u yerda ota-onalar farzandini tarbiyachilar nazorati ostida qoldirishlari mumkin.\nUchinchi qavatda kimyoviy tozalash, tikuvchilik va turistik agentlik joylashgan.",
+    subQuestions: [
+      {
+        text: "Bolalar kiyimlarini sotib olish mumkin",
+        options: ["birinchi qavatda", "ikkinchi qavatda", "uchinchi qavatda"],
+        correctAnswer: "birinchi qavatda"
+      },
+      {
+        text: "Ikkinchi qavatda ochiladi",
+        options: ["konkida uchish maydonchasi", "suv havzasi", "fitnes-markaz"],
+        correctAnswer: "konkida uchish maydonchasi"
+      },
+      {
+        text: "Kichik bolalar uchun ishlaydi",
+        options: ["boshlang'ich maktab", "bolalar bog'chasi", "bolalar shaharchasi"],
+        correctAnswer: "bolalar shaharchasi"
+      }
+    ]
   },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Для постановки на учёт по месту пребывания иностранный гражданин должен иметь",
-      "options": [
-        "только миграционную карту",
-        "только паспорт",
-        "паспорт и миграционную карту"
-      ],
-      "correctAnswer": "паспорт и миграционную карту"
-    },
-    "uz": {
-      "text": "Yashash joyi bo'yicha ro'yxatdan o'tish uchun chet el fuqarosi",
-      "options": [
-        "faqat migratsiya kartasiga",
-        "faqat pasportga",
-        "pasport va migratsiya kartasiga"
-      ],
-      "correctAnswer": "pasport va migratsiya kartasiga"
-    },
-    "en": {
-      "text": "To register at the place of stay, a foreign citizen must have",
-      "options": [
-        "only a migration card",
-        "only a passport",
-        "a passport and a migration card"
-      ],
-      "correctAnswer": "a passport and a migration card"
-    },
-    "tj": {
-      "text": "Барои сабт шудан дар сабти ҷойи иқомат, шаҳрвандии хориҷӣ бояд",
-      "options": [
-        "танҳо корт миграция",
-        "танҳо паспорти",
-        "паспорт ва корт миграция"
-      ],
-      "correctAnswer": "паспорт ва корт миграция"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "Если иностранный гражданин нарушил правила постановки на миграционный учёт, то он привлекается к ____________ ответственности",
-      "options": ["дисциплинарной", "уголовной", "административной"],
-      "correctAnswer": "административной"
-    },
-    "uz": {
-      "text": "Agar chet el fuqarosi migratsiya ro'yxatiga qo'yish qoidalarini buzgan bo'lsa, u ____________ javobgarlikka tortiladi.",
-      "options": ["disiplinar javobgarlik", "jinoiy javobgarlik", "ma'muriy javobgarlik"],
-      "correctAnswer": "ma'muriy javobgarlik"
-    },
-    "en": {
-      "text": "If a foreign citizen violated the rules of migration registration, he is subject to ____________ responsibility",
-      "options": ["disciplinary", "criminal", "administrative"],
-      "correctAnswer": "administrative"
-    },
-    "tj": {
-      "text": "Агар шаҳрвандии хориҷӣ қоидаҳои сабти номи муҳоҷиратро вайрон кунад, вай ба ____________ масъулият кашида мешавад.",
-      "options": ["масъулияти тартибӣ", "масъулияти ҷиноятӣ", "масъулияти маъмурӣ"],
-      "correctAnswer": "масъулияти маъмурӣ"
-    }
-  },
-  {
-    "type": "text",
-    "ru": {
-      "text": "В случае выявления ВИЧ-инфекции у иностранных граждан и лиц без гражданства, находящихся на территории Российской Федерации, они подлежат депортации из Российской Федерации в порядке, установленном законодательством Российской Федерации. Верно ли это суждение?",
-      "options": ["верно", "неверно"],
-      "correctAnswer": "верно"
-    },
-    "uz": {
-      "text": "Agar chet el fuqarolari va fuqarosiz shaxslar orasida OIV yuqumli kasalligi aniqlansa, ular Rossiya Federatsiyasidan chiqarib yuborilishi kerak. Ushbu fikr to'g'rimi?",
-      "options": ["to'g'ri", "noto'g'ri"],
-      "correctAnswer": "to'g'ri"
-    },
-    "en": {
-      "text": "If HIV infection is detected in foreign citizens and stateless persons on the territory of the Russian Federation, they are subject to deportation from the Russian Federation in accordance with the procedure established by the legislation of the Russian Federation. Is this statement true?",
-      "options": ["true", "false"],
-      "correctAnswer": "true"
-    },
-    "tj": {
-      "text": "Агар дар шаҳрвандони хориҷӣ ва афроди беназорат, ки дар қаламрави Федератсияи Русия ҳастанд, бемории ВИЧ ошкор шавад, онҳо бояд мувофиқи қоидаҳои қонунгузории Федератсияи Русия аз Русия ихроҷ шаванд. Оё ин гап дуруст аст?",
-      "options": ["дуруст", "нодруст"],
-      "correctAnswer": "дуруст"
-    }
+  tj: {
+    text: "Эълонро гӯш кунед ва ба саволҳои 1 ва 2 ҷавоби дуруст интихоб кунед.",
+    transcript: "Эълон:\nБа зудӣ маҷмааи нави савдо дарҳоашро мекушояд!\nДар ошёнаи якум супермаркети техникаи маишӣ, мағозаҳои либос ва пойафзол, молҳои кӯдакона, ҳамчунин гипермаркети «Ашан» ҷойгир аст.\nДар ошёнаи дуюм минтақаи ресторанҳо ҷойгир аст, ки дар он ҷо метавонед хӯроки болаззат хӯред. Ҳамчунин дар ҳамин ҷо майдончаи яхмолакӣ кушода мешавад — мураббиёни ботаҷрибаи фигураи яхӣ барои кӯдакон машғулиятҳо мегузаронанд. Барои хурдтарин меҳмонон шаҳраки кӯдакона кор мекунад, ки дар он ҷо падару модарон метавонанд фарзандашонро муддате таҳти назорати тарбиятчиён гузоранд.\nДар ошёнаи сеюм химчистка, ателье ва агентӣи туристи ҷойгир аст.",
+    subQuestions: [
+      {
+        text: "Либоси кӯдаконаро метавон харид",
+        options: ["дар ошёнаи якум", "дар ошёнаи дуюм", "дар ошёнаи сеюм"],
+        correctAnswer: "дар ошёнаи якум"
+      },
+      {
+        text: "Дар ошёнаи дуюм кушода мешавад",
+        options: ["майдончаи яхмолакӣ", "ҳавзи шиноварӣ", "маркази фитнес"],
+        correctAnswer: "майдончаи яхмолакӣ"
+      },
+      {
+        text: "Барои кӯдакони хурдсол кор мекунад",
+        options: ["мактаби ибтидоӣ", "боғчаи кӯдакона", "шаҳраки кӯдакона"],
+        correctAnswer: "шаҳраки кӯдакона"
+      }
+    ]
   }
-    ];
+},
+{
+  type: "text",
+  ru: {
+    text: "Прочитайте объявление и выберите правильный ответ.\n\"Уважаемые мамы и папы, бабушки и дедушки! Мы кормим детей строго в соответствии с меню и по расписанию. Запрещено приносить продукты питания.\"\n\nТакое объявление можно прочитать:",
+    options: ["в банке", "в детском саду", "в трамвае"],
+    correctAnswer: "в детском саду"
+  },
+  en: {
+    text: "Read the announcement and choose the correct answer.\n\"Dear moms and dads, grandmothers and grandfathers! We feed the children strictly according to the menu and schedule. It is prohibited to bring food products.\"\n\nSuch an announcement can be read:",
+    options: ["in a bank", "in a kindergarten", "in a tram"],
+    correctAnswer: "in a kindergarten"
+  },
+  uz: {
+    text: "E'lonni o'qing va to'g'ri javobni tanlang.\n\"Hurmatli onalar va otalar, buvilar va bobolar! Biz bolalarni qat'iy ravishda menyuga va jadvalga muvofiq ovqatlantiramiz. Oziq-ovqat mahsulotlarini olib kelish taqiqlangan.\"\n\nBunday e'lonni qayerda o'qish mumkin:",
+    options: ["bankda", "bolalar bog'chasida", "tramvayda"],
+    correctAnswer: "bolalar bog'chasida"
+  },
+  tj: {
+    text: "Эълонро хонед ва ҷавоби дурустро интихоб кунед.\n\"Муҳтарам модарон ва падарон, бибихо ва бобоҳо! Мо кӯдаконро қатъиян мувофиқи меню ва ҷадвал ғизо медиҳем. Овардани маҳсулоти ғизоӣ манъ аст.\"\n\nЧунин эълонро дар куҷо хондан мумкин аст:",
+    options: ["дар бонк", "дар боғчаи кӯдакона", "дар трамвай"],
+    correctAnswer: "дар боғчаи кӯдакона"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Прочитайте объявление и выберите правильный ответ.\n\"Уважаемые жители! В вашем доме 5 января с 10 до 14 часов будет отключена горячая вода в связи с заменой труб в подвале. Приносим свои извинения за доставленные неудобства.\"\n\nВ доме не будет",
+    options: ["холодной воды", "горячей воды", "отопления"],
+    correctAnswer: "горячей воды"
+  },
+  en: {
+    text: "Read the announcement and choose the correct answer.\n\"Dear residents! In your building on January 5 from 10:00 to 14:00 hot water will be turned off due to pipe replacement in the basement. We apologize for the inconvenience caused.\"\n\nIn the building there will be no",
+    options: ["cold water", "hot water", "heating"],
+    correctAnswer: "hot water"
+  },
+  uz: {
+    text: "E'lonni o'qing va to'g'ri javobni tanlang.\n\"Hurmatli aholi! Uyingizda 5-yanvar kuni soat 10:00 dan 14:00 gacha podvalda quvurlarni almashtirish munosabati bilan issiq suv o'chiriladi. Yetkazilgan noqulayliklar uchun uzr so'raymiz.\"\n\nUyda bo'lmaydi",
+    options: ["sovuq suv", "issiq suv", "isitish"],
+    correctAnswer: "issiq suv"
+  },
+  tj: {
+    text: "Эълонро хонед ва ҷавоби дурустро интихоб кунед.\n\"Муҳтарам сокинон! Дар хонаи шумо 5 январ аз соати 10 то 14 оби гарм дар робита бо иваз кардани найҳо дар таҳхона хомӯш карда мешавад. Барои ноқулайиҳои ба вуҷуд омада узр мепурсем.\"\n\nДар хона нахоҳад буд",
+    options: ["оби сард", "оби гарм", "гармкунӣ"],
+    correctAnswer: "оби гарм"
+  }
+},
+{
+  type: "textGroup",
+  ru: {
+    text: "Александр Сергеевич Пушкин – великий русский поэт, «солнце русской поэзии». Он автор произведений «Евгений Онегин», «Капитанская дочка», «Руслан и Людмила», «Дубровский» и многих других.\n\nА.С. Пушкин родился 6 июня 1799 года в Москве. Его отец очень любил литературу, его дядя был поэтом. В детстве его воспитывали бабушка и няня Арина Родионовна. О своей няне он напишет много стихов.\n\nПушкин учился в Царскосельском лицее недалеко от Петербурга. Там он написал своё первое стихотворение. За свою жизнь А.С. Пушкин написал много великих произведений. Погиб он 8 февраля 1837 года. Ему было всего 37 лет!",
+    subQuestions: [
+      {
+        text: "А.С. Пушкин родился в",
+        options: ["Москве", "селе Михайловском", "Санкт-Петербурге"],
+        correctAnswer: "Москве"
+      },
+      {
+        text: "В детстве Пушкина воспитывали",
+        options: ["отец и дядя", "бабушка и отец", "бабушка и няня"],
+        correctAnswer: "бабушка и няня"
+      },
+      {
+        text: "А.С. Пушкин учился",
+        options: ["в Московском государственном университете", "в Царскосельском лицее", "в частной школе"],
+        correctAnswer: "в Царскосельском лицее"
+      }
+    ]
+  },
+  en: {
+    text: "Alexander Sergeyevich Pushkin is a great Russian poet, the \"sun of Russian poetry\". He is the author of \"Eugene Onegin\", \"The Captain's Daughter\", \"Ruslan and Lyudmila\", \"Dubrovsky\" and many others.\n\nA.S. Pushkin was born on June 6, 1799 in Moscow. His father loved literature very much, his uncle was a poet. In childhood he was raised by his grandmother and nanny Arina Rodionovna. He wrote many poems about his nanny.\n\nPushkin studied at the Tsarskoye Selo Lyceum near St. Petersburg. There he wrote his first poem. During his life A.S. Pushkin wrote many great works. He died on February 8, 1837. He was only 37 years old!",
+    subQuestions: [
+      {
+        text: "A.S. Pushkin was born in",
+        options: ["Moscow", "Mikhailovskoye village", "Saint Petersburg"],
+        correctAnswer: "Moscow"
+      },
+      {
+        text: "In childhood Pushkin was raised by",
+        options: ["father and uncle", "grandmother and father", "grandmother and nanny"],
+        correctAnswer: "grandmother and nanny"
+      },
+      {
+        text: "A.S. Pushkin studied",
+        options: ["Moscow State University", "Tsarskoye Selo Lyceum", "private school"],
+        correctAnswer: "Tsarskoye Selo Lyceum"
+      }
+    ]
+  },
+  uz: {
+    text: "Aleksandr Sergeyevich Pushkin – buyuk rus shoiri, «rus she’riyatining quyoshi». U «Yevgeniy Onegin», «Kapitan qizi», «Ruslan va Lyudmila», «Dubrovskiy» va boshqa ko‘plab asarlar muallifi.\n\nA.S. Pushkin 1799 yil 6-iyunda Moskvada tug‘ilgan. Otasi adabiyotni juda yaxshi ko‘rardi, amakisi shoir edi. Bolaligida uni buvisi va enagasi Arina Rodionovna tarbiyalagan. U enagasi haqida ko‘p she’rlar yozgan.\n\nPushkin Peterburg yaqinidagi Tsarskoselskiy litseyida o‘qigan. U yerda o‘zining birinchi she’rini yozgan. Hayoti davomida A.S. Pushkin ko‘plab buyuk asarlar yaratgan. U 1837 yil 8-fevralda vafot etgan. U bor-yo‘g‘i 37 yoshda edi!",
+    subQuestions: [
+      {
+        text: "A.S. Pushkin qayerda tug‘ilgan",
+        options: ["Moskva", "Mixaylovskiy qishlog‘i", "Sankt-Peterburg"],
+        correctAnswer: "Moskva"
+      },
+      {
+        text: "Bolaligida Pushkinni tarbiyalagan",
+        options: ["ota va amaki", "buvi va ota", "buvi va enaga"],
+        correctAnswer: "buvi va enaga"
+      },
+      {
+        text: "A.S. Pushkin qayerda o‘qigan",
+        options: ["Moskva davlat universiteti", "Tsarskoselskiy litseyi", "xususiy maktab"],
+        correctAnswer: "Tsarskoselskiy litseyi"
+      }
+    ]
+  },
+  tj: {
+    text: "Александр Сергеевич Пушкин – шоири бузурги рус, «офтоби шеърияти рус». Ӯ муаллифи асарҳои «Евгений Онегин», «Духтари капитан», «Руслан ва Людмила», «Дубровский» ва бисёр дигарон аст.\n\nА.С. Пушкин 6 июни соли 1799 дар Москва таваллуд шудааст. Падараш адабиётро хеле дӯст медошт, амакаш шоир буд. Дар кӯдакӣ ӯро бибӣ ва ҳамшираи Арина Родионовна тарбия кардаанд. Ӯ дар бораи ҳамширааш бисёр шеърҳо навиштааст.\n\nПушкин дар Лисеи Царскоселӣ наздики Петербург таҳсил кардааст. Дар ҳамон ҷо Ӯ аввалин шеърашро навиштааст. Дар тӯли умраш А.С. Пушкин бисёр асарҳои бузург эҷод кардааст. Ӯ 8 феврали соли 1837 даргузашт. Ӯ ҳамагӣ 37-сола буд!",
+    subQuestions: [
+      {
+        text: "А.С. Пушкин дар куҷо таваллуд шудааст",
+        options: ["Москва", "деҳаи Михайловское", "Санкт-Петербург"],
+        correctAnswer: "Москва"
+      },
+      {
+        text: "Дар кӯдакӣ Пушкинро тарбия кардаанд",
+        options: ["падар ва амакаш", "бибӣ ва падар", "бибӣ ва ҳамшира"],
+        correctAnswer: "бибӣ ва ҳамшира"
+      },
+      {
+        text: "А.С. Пушкин дар куҷо таҳсил кардааст",
+        options: ["Донишгоҳи давлатии Москва", "Лисеи Царскоселӣ", "мактаби хусусӣ"],
+        correctAnswer: "Лисеи Царскоселӣ"
+      }
+    ]
+  }
+},
+{
+  type: "speaking",
+  excludeFromStatistics: true,
+  ru: {
+    text: "Прочитайте объявление и напишите заявление.\n\nТроллейбусный парк № 3 приглашает желающих на курсы подготовки учеников водителей троллейбуса.\nВозраст кандидатов – от 21 года\n– Образование – не ниже среднего.\n– Форма обучения – дневная.\nНа период обучения предоставляется общежитие, льготное питание и выплачивается стипендия.\nПосле обучения – трудоустройство.\n\nЧтобы записаться на курсы, Вам необходимо написать заявление на имя директора Учебного комбината троллейбусного парка № 3 Г.Ф. Ермишина. В заявлении Вы должны указать:\n-должность, фамилию и инициалы руководителя организации;\n-название организации;\n-свои фамилию, имя и отчество;\n-название курсов;\n-нуждаетесь ли Вы в предоставлении общежития;\n-дату заполнения заявления и поставить подпись.\n\nКому _______________________\n(должность руководителя)\n\n______________________________\n(название организации)\n\n______________________________\n(фамилия и инициалы руководителя)\n\nОт кого\n ______________________________\n(фамилия, имя, отчество кандидата)\n\nЗаявление\n\n Прошу зачислить меня на курсы__________________________ \n(нуждаетесь ли Вы в общежитии)\n\n «_____» ____________ 20___года\n(дата)\n\n______________________\n(подпись)",
+    exampleAnswer: "Директору Учебного комбината\nтроллейбусного парка № 3\nЕрмишину Г.Ф.\n\nОт Иванова Петра Сергеевича\n\nЗаявление\n\nПрошу зачислить меня на курсы подготовки учеников водителей троллейбуса.\nПрошу предоставить место в общежитии на период обучения.\n\n«15» октября 2025 года\n\nИванов П.С."
+  },
+  en: {
+    text: "Read the announcement and write an application.\n\nTrolleybus Depot No. 3 invites those interested to courses for training student trolleybus drivers.\nCandidates must be at least 21 years old.\n– Education – at least secondary.\n– Form of study – full-time (daytime).\nDuring the training period, dormitory accommodation, discounted meals, and a stipend are provided.\nAfter completion – employment is guaranteed.\n\nTo enroll in the courses, you need to write an application addressed to the Director of the Training Center of Trolleybus Depot No. 3 G.F. Yermishin. In the application you must indicate:\n– position, surname and initials of the head of the organization;\n– name of the organization;\n– your surname, first name and patronymic;\n– name of the courses;\n– whether you need dormitory accommodation;\n– date of filling out the application and signature.\n\nTo _______________________\n(position of the head)\n\n______________________________\n(name of the organization)\n\n______________________________\n(surname and initials of the head)\n\nFrom\n ______________________________\n(surname, first name, patronymic of the candidate)\n\nApplication\n\nI request to enroll me in the courses __________________________ \n(whether you need dormitory)\n\n«_____» ____________ 20___ year\n(date)\n\n______________________\n(signature)",
+    exampleAnswer: "To the Director of the Training Center\nTrolleybus Depot No. 3\nYermishin G.F.\n\nFrom Ivanov Petr Sergeevich\n\nApplication\n\nI kindly request to enroll me in the trolleybus driver training courses.\nI request dormitory accommodation during the training period.\n\nOctober 15, 2025\n\nIvanov P.S."
+  },
+  uz: {
+    text: "E'lonni o'qing va ariza yozing.\n\nTrolleybus parki № 3 trolleybus haydovchilari uchun o'quvchilar tayyorlash kurslariga qiziqqanlarni taklif qiladi.\nNomzodlar yoshi – 21 yoshdan.\n– Ta'lim – o'rta va undan yuqori.\n– O'qish shakli – kunduzgi.\nO'qish davrida yotoqxona, imtiyozli ovqatlanish va stipendiya ta'minlanadi.\nO'qishni tugatgandan so'ng – ishga joylashtirish.\n\nKurslarga yozilish uchun trolleybus parki № 3 o'quv kombinat direktori G.F. Yermishinga ariza yozish kerak. Arizada quyidagilarni ko'rsatish lozim:\n– tashkilot rahbarining lavozimi, familiyasi va ismi-sharifi;\n– tashkilot nomi;\n– familiyangiz, ismingiz va otangiz ismi;\n– kurslar nomi;\n– yotoqxona kerakmi yoki yo'q;\n– ariza to'ldirilgan sana va imzo.\n\nKimga _______________________\n(rahbar lavozimi)\n\n______________________________\n(tashkilot nomi)\n\n______________________________\n(rahbar familiyasi va ismi-sharifi)\n\nKimdan\n ______________________________\n(nomzod familiyasi, ismi, otasining ismi)\n\nAriza\n\nMeni __________________________ kurslariga qabul qilishingizni so'rayman \n(yotoqxona kerakmi)\n\n«_____» ____________ 20___ yil\n(sana)\n\n______________________\n(imzo)",
+    exampleAnswer: "Trolleybus parki № 3 O'quv kombinat direktoriga\nYermishin G.F.ga\n\nIvanov Petr Sergeevichdan\n\nAriza\n\nMeni trolleybus haydovchilari tayyorlash kurslariga qabul qilishingizni so'rayman.\nO'qish davrida yotoqxona berishingizni so'rayman.\n\n2025 yil 15-oktabr\n\nIvanov P.S."
+  },
+  tj: {
+    text: "Эълонро хонед ва ариза нависед.\n\nТроллейбус парки № 3 хоҳишмандонро ба курсҳои тайёр кардани шогирдони ронандаи троллейбус даъват мекунад.\nСинну соли номзадҳо – аз 21-сола.\n– Маълумот – на камтар аз миёна.\n– Шакли таҳсил – рӯзона.\nДар давраи таҳсил хобгоҳ, ғизои имтиёзнок ва стипендия дода мешавад.\nПас аз хатми таҳсил – ҷойи кор.\n\nБарои сабти ном дар курсҳо ба номи директори Комбинати таълимии троллейбус парки № 3 Г.Ф. Ермишин ариза нависед. Дар ариза бояд нишон диҳед:\n– вазифа, насаб ва номи ибтидоии роҳбари ташкилот;\n– номи ташкилот;\n– насаб, ном ва номи падар;\n– номи курсҳо;\n– оё ба шумо хобгоҳ лозим аст;\n– санаи пур кардани ариза ва имзо.\n\nБа кӣ _______________________\n(вазифаи роҳбар)\n\n______________________________\n(номи ташкилот)\n\n______________________________\n(насаб ва номи ибтидоии роҳбар)\n\nАз кӣ\n ______________________________\n(насаб, ном ва номи падар номзад)\n\nАриза\n\nМарҳамат маро ба курсҳои __________________________ қабул кунед \n(оё хобгоҳ лозим аст)\n\n«_____» ____________ соли 20___\n(сана)\n\n______________________\n(имзо)",
+    exampleAnswer: "Директори Комбинати таълимии троллейбус парки № 3\nЕрмишин Г.Ф.-ро\n\nАз Иванов Петр Сергеевич\n\nАриза\n\nМарҳамат маро ба курсҳои тайёр кардани ронандагони троллейбус қабул кунед.\nДар давраи таҳсил хобгоҳ диҳед.\n\n15 октябри соли 2025\n\nИванов П.С."
+  }
+},
+{
+  type: "speaking",
+  excludeFromStatistics: true,
+  ru: {
+    text: "Напишите письмо.\n\nНапишите Вашему другу/подруге письмо об обучении на курсах подготовки водителей троллейбуса. В письме:\n\n1. Поздоровайтесь.\n2. Расскажите, когда и где проходят занятия. \n3. Напишите, сколько человек в Вашей группе. \n4. Сообщите, какая форма обучения. \n5. Посоветуйте другу/подруге подать заявку на обучение на курсах. \n6. Объясните, почему Вы даёте этот совет.\n7. Попрощайтесь.",
+    exampleAnswer: "Привет, Маша!\n\nХочу рассказать тебе про мои курсы подготовки водителей троллейбуса. Занятия проходят каждый день с 9 до 15 часов в троллейбусном парке № 3, это недалеко от моего дома.\nВ моей группе сейчас 12 человек — все очень разные по возрасту, но все старательные.\nФорма обучения дневная, поэтому приходится рано вставать, но зато вечером свободно.\nОбязательно подавай заявку на эти курсы! После окончания сразу берут на работу, платят стипендию во время учёбы, дают общежитие и льготное питание. Это отличный шанс быстро получить профессию и стабильную работу.\nЖду твоего ответа!\nОбнимаю,\nКатя"
+  },
+  en: {
+    text: "Write a letter.\n\nWrite a letter to your friend about studying at the trolleybus driver training courses. In the letter:\n\n1. Greet them.\n2. Tell when and where the classes are held. \n3. Write how many people are in your group. \n4. Inform what form of study it is. \n5. Advise your friend to apply for the courses. \n6. Explain why you are giving this advice.\n7. Say goodbye.",
+    exampleAnswer: "Hi Masha!\n\nI want to tell you about my trolleybus driver training courses. Classes are held every day from 9 am to 3 pm at Trolleybus Depot No. 3, not far from my home.\nThere are 12 people in my group right now — everyone is of different ages, but all are very diligent.\nThe form of study is full-time daytime, so I have to get up early, but evenings are free.\nYou should definitely apply for these courses! After finishing, they immediately hire you, pay a stipend during training, provide dormitory and discounted meals. It's a great chance to quickly get a profession and stable job.\nWaiting for your reply!\nHugs,\nKatya"
+  },
+  uz: {
+    text: "Xat yozing.\n\nDo'stingizga trolleybus haydovchilari tayyorlash kurslarida o'qiyotganingiz haqida xat yozing. Xatda:\n\n1. Salomlash.\n2. Mashg'ulotlar qachon va qayerda o'tkazilishini aytib bering. \n3. Guruhda nechta odam borligini yozing. \n4. O'qish shaklini xabar qiling. \n5. Do'stingizga kurslarga ariza topshirishni maslahat bering. \n6. Nega bunday maslahat berayotganingizni tushuntiring.\n7. Xayrlashing.",
+    exampleAnswer: "Salom, Masha!\n\nTrolleybus haydovchilari tayyorlash kurslarim haqida aytmoqchiman. Mashg'ulotlar har kuni ertalab soat 9 dan 15 gacha trolleybus parki № 3 da o'tkaziladi, u mening uyimdan uncha uzoq emas.\nMening guruhimda hozir 12 kishi bor — yoshlari har xil, lekin hammasi mehnatkash.\nO'qish shakli kunduzgi, shuning uchun ertalab erta turish kerak, lekin kechqurun bo'sh vaqtim bor.\nAlbatta bu kurslarga ariza topshir! O'qishni tugatgandan keyin darhol ishga oladilar, o'qish paytida stipendiya beradilar, yotoqxona va imtiyozli ovqat ta'minlaydilar. Bu tez kasb egallash va barqaror ish topish uchun ajoyib imkoniyat.\nJavobingni kutaman!\nQuchoqlayman,\nKatya"
+  },
+  tj: {
+    text: "Нома нависед.\n\nБа дӯст/духтаратон дар бораи таҳсил дар курсҳои тайёр кардани ронандагони троллейбус нома нависед. Дар нома:\n\n1. Салом диҳед.\n2. Дар бораи он ки машғулиятҳо кай ва дар куҷо мегузаранд, нақл кунед. \n3. Дар гурӯҳи шумо чанд нафар ҳастанд, нависед. \n4. Шакли таҳсилро хабар диҳед. \n5. Ба дӯст/духтаратон маслиҳат диҳед, ки барои таҳсил дар курсҳо ариза диҳад. \n6. Чаро ин маслиҳатро медиҳед, шарҳ диҳед.\n7. Хайрухуш кунед.",
+    exampleAnswer: "Салом, Маша!\n\nМехоҳам дар бораи курсҳои тайёр кардани ронандагони троллейбус ба ту бигӯям. Машғулиятҳо ҳар рӯз аз соати 9 то 15 дар троллейбус парки № 3 мегузаранд, ин аз манзили ман дур нест.\nДар гурӯҳи ман ҳозир 12 нафар ҳастанд — синну солашон гуногун, аммо ҳама заҳматкаш.\nШакли таҳсил рӯзона аст, аз ин рӯ бояд субҳ барвақт бедор шавам, вале шабҳо озодам.\nҲатман барои ин курсҳо ариза диҳ! Пас аз хатм фавран ба кор мегиранд, дар давраи таҳсил стипендия медиҳанд, хобгоҳ ва ғизои имтиёзнок таъмин мекунанд. Ин имконияти хубест барои зуд касб гирифтан ва кори устувор.\nИнтизори ҷавобат ҳастам!\nБӯсаҳо,\nКатя"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Я очень люблю ___________.",
+    "options": ["спорт", "спортивный", "спортсмен"],
+    "correctAnswer": "спорт"
+  },
+  "en": {
+    "text": "I really love ___________.",
+    "options": ["sports", "sporty", "athlete"],
+    "correctAnswer": "sports"
+  },
+  "uz": {
+    "text": "Men juda __________ yaxshi ko'raman.",
+    "options": ["sport", "sportchi", "sport bilan shug'ullanuvchi"],
+    "correctAnswer": "sport"
+  },
+  "tj": {
+    "text": "Ман хеле __________ дӯст медорам.",
+    "options": ["варзиш", "варзишгар", "варзишӣ"],
+    "correctAnswer": "варзиш"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "В магазине «Мебель» можно купить ___________.",
+    options: ["книги", "брюки", "стол"],
+    correctAnswer: "стол"
+  },
+  en: {
+    text: "In the 'Furniture' store you can buy ___________.",
+    options: ["books", "pants", "table"],
+    correctAnswer: "table"
+  },
+  uz: {
+    text: "'Mebel' do'konida ___________ sotib olish mumkin.",
+    options: ["kitoblar", "shimlar", "stol"],
+    correctAnswer: "stol"
+  },
+  tj: {
+    text: "Дар мағозаи 'Мебель' метавонед ___________ харид кунед.",
+    options: ["китобҳо", "шалворҳо", "мебель"],
+    correctAnswer: "мебель"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Он часто вспоминает ___________.",
+    options: ["о ней", "к ней", "она"],
+    correctAnswer: "о ней"
+  },
+  en: {
+    text: "He often remembers ___________.",
+    options: ["about her", "to her", "she"],
+    correctAnswer: "about her"
+  },
+  uz: {
+    text: "U tez-tez ___________ eslaydi.",
+    options: ["uni", "ularni", "ular"],
+    correctAnswer: "uni"
+  },
+  tj: {
+    text: "Вай бисёр ___________ ёд мекунад.",
+    options: ["дар бораи ӯ", "ба ӯ", "воу"],
+    correctAnswer: "дар бораи ӯ"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Они думают, что ___________ есть комната в общежитии.",
+    options: ["у него", "к нему", "с ним"],
+    correctAnswer: "у него"
+  },
+  en: {
+    text: "They think that ___________ has a room in the dormitory.",
+    options: ["he has", "to him", "with him"],
+    correctAnswer: "he has"
+  },
+  uz: {
+    text: "Ular o'ylashadi, ___________ yotoqxonada xona bor.",
+    options: ["uni", "uni", "bilan"],
+    correctAnswer: "uni"
+  },
+  tj: {
+    text: "Онҳо мепиндоранд, ки ___________ дар хонаи хоб ҳаст.",
+    options: ["у ӯ", "ба ӯ", "бо ӯ"],
+    correctAnswer: "у ӯ"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Скажите, ___________ начинается ремонт?",
+    options: ["который", "когда", "куда"],
+    correctAnswer: "когда"
+  },
+  en: {
+    text: "Say, ___________ does the repair start?",
+    options: ["which", "when", "where"],
+    correctAnswer: "when"
+  },
+  uz: {
+    text: "Ayting, ___________ ta'mirlash boshlanadi?",
+    options: ["qaysi", "qachon", "qayerga"],
+    correctAnswer: "qachon"
+  },
+  tj: {
+    text: "Гуфтан, ___________ таъмир оғоз меёбад?",
+    options: ["кадоми", "ки", "куда"],
+    correctAnswer: "ки"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "В 862 г. был призван на княжение",
+    options: ["Олег", "Владимир", "Рюрик"],
+    correctAnswer: "Рюрик"
+  },
+  en: {
+    text: "In 862, he was called to rule",
+    options: ["Oleg", "Vladimir", "Rurik"],
+    correctAnswer: "Rurik"
+  },
+  uz: {
+    text: "862 yilda knyazlikka chaqirilgan",
+    options: ["Oleg", "Vladimir", "Rurik"],
+    correctAnswer: "Rurik"
+  },
+  tj: {
+    text: "Дар 862 сол княжение даъват шуда буд",
+    options: ["Oleg", "Vladimir", "Rurik"],
+    correctAnswer: "Rurik"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "В 1612 г. Москва была освобождена от",
+    options: ["шведских интервентов", "польско-литовских интервентов", "французских интервентов"],
+    correctAnswer: "польско-литовских интервентов"
+  },
+  en: {
+    text: "In 1612, Moscow was liberated from",
+    options: ["Swedish invaders", "Polish-Lithuanian invaders", "French invaders"],
+    correctAnswer: "Polish-Lithuanian invaders"
+  },
+  uz: {
+    text: "1612 yilda Moskva ___________ ozod qilindi",
+    options: ["Shved bosqinchilari", "Polsha-Litva bosqinchilari", "Fransuz bosqinchilari"],
+    correctAnswer: "Polsha-Litva bosqinchilari"
+  },
+  tj: {
+    text: "Дар соли 1612 Москва аз ___________ озод карда шуд",
+    options: ["шведские интервенты", "польско-литовские интервенты", "французские интервенты"],
+    correctAnswer: "польско-литовские интервенты"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Великим полководцем периода правления Екатерины II является",
+    options: ["Александр Суворов", "Дмитрий Пожарский", "Иван Грозный"],
+    correctAnswer: "Александр Суворов"
+  },
+  en: {
+    text: "The great commander of the reign of Catherine II is",
+    options: ["Alexander Suvorov", "Dmitry Pozharsky", "Ivan the Terrible"],
+    correctAnswer: "Alexander Suvorov"
+  },
+  uz: {
+    text: "Ekaterina II davridagi buyuk qo'mondon",
+    options: ["Aleksandr Suvorov", "Dmitriy Pozharskiy", "Ivan Grozniy"],
+    correctAnswer: "Aleksandr Suvorov"
+  },
+  tj: {
+    text: "Генерал-губернатор в период правления Екатерины II является",
+    options: ["Александр Суворов", "Дмитрий Пожарский", "Иван Грозный"],
+    correctAnswer: "Александр Суворов"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Во время Великой Отечественной войны произошла",
+    options: ["Куликовская битва", "Курская битва", "Невская битва"],
+    correctAnswer: "Курская битва"
+  },
+  en: {
+    text: "During the Great Patriotic War, the",
+    options: ["Battle of Kulikovo", "Battle of Kursk", "Battle of Neva"],
+    correctAnswer: "Battle of Kursk"
+  },
+  uz: {
+    text: "Buyuk Vatan urushi vaqtida sodir bo'ldi",
+    options: ["Kulikov jang", "Kursk jang", "Nev jang"],
+    correctAnswer: "Kursk jang"
+  },
+  tj: {
+    text: "Дар давраи Ҷанги Бузурги Ватанӣ рух дод",
+    options: ["Куликовская битва", "Курская битва", "Невская битва"],
+    correctAnswer: "Курская битва"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Акт о безоговорочной капитуляции фашистской Германии и её вооруженных сил был подписан",
+    options: ["в январе 1945 г.", "в мае 1945 г.", "в августе 1945 г."],
+    correctAnswer: "в мае 1945 г."
+  },
+  en: {
+    text: "The act of unconditional surrender of Nazi Germany and its armed forces was signed",
+    options: ["in January 1945", "in May 1945", "in August 1945"],
+    correctAnswer: "in May 1945"
+  },
+  uz: {
+    text: "Fashist Germaniyasining shartnoma bo'yicha taslim bo'lishi va uning qurolli kuchlari",
+    options: ["yanvar 1945 yilda", "may 1945 yilda", "avgust 1945 yilda"],
+    correctAnswer: "may 1945 yilda"
+  },
+  tj: {
+    text: "Акт о безоговорочной капитуляции фашистской Германии и её вооруженных сил был подписан",
+    options: ["в январе 1945 г.", "в мае 1945 г.", "в августе 1945 г."],
+    correctAnswer: "в мае 1945 г."
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "В процессе распада СССР некоторые бывшие советские республики создали",
+    options: [
+      "Организацию Объединенных наций (ООН)",
+      "Содружество Независимых Государств (СНГ)",
+      "Совет Европы (СЕ)"
+    ],
+    correctAnswer: "Содружество Независимых Государств (СНГ)"
+  },
+  en: {
+    text: "During the collapse of the USSR, some former Soviet republics created",
+    options: [
+      "United Nations (UN)",
+      "Commonwealth of Independent States (CIS)",
+      "Council of Europe (CE)"
+    ],
+    correctAnswer: "Commonwealth of Independent States (CIS)"
+  },
+  uz: {
+    text: "SSSRning parchalanishi jarayonida ba'zi sobiq sovet respublikalari yaratdi",
+    options: [
+      "Birlashgan Millatlar Tashkiloti (BMT)",
+      "Mustaqil Davlatlar Hamdo'stligi (MDH)",
+      "Yevropa Kengashi (YK)"
+    ],
+    correctAnswer: "Mustaqil Davlatlar Hamdo'stligi (MDH)"
+  },
+  tj: {
+    text: "Дар ҷараёни пароканда шудани ИҶШС баъзе ҷумҳуриҳои собиқи шӯравӣ ташкил карданд",
+    options: [
+      "Созмони Милал (СМ)",
+      "Иттиҳоди Давлатҳои Мустақил (ИДМ)",
+      "Шӯрои Аврупо (ША)"
+    ],
+    correctAnswer: "Иттиҳоди Давлатҳои Мустақил (ИДМ)"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Договор о создании Евразийского экономического союза вступил в силу в период президентства",
+    options: ["Б.Н. Ельцина", "В.В. Путина", "Д.А. Медведева"],
+    correctAnswer: "В.В. Путина"
+  },
+  en: {
+    text: "The agreement on the creation of the Eurasian Economic Union came into force during the presidency of",
+    options: ["B.N. Yeltsin", "V.V. Putin", "D.A. Medvedev"],
+    correctAnswer: "V.V. Putin"
+  },
+  uz: {
+    text: "Yevrosiyo iqtisodiy ittifoqini yaratish haqidagi kelishuv kuchga kirgan davrda prezident edi",
+    options: ["B.N. Yeltsin", "V.V. Putin", "D.A. Medvedev"],
+    correctAnswer: "V.V. Putin"
+  },
+  tj: {
+    text: "Ҳуҷҷати таъсиси Иттиҳоди иқтисодии Евроосиё дар давраи раёсатҷонии",
+    options: ["Б.Н. Ельцин", "В.В. Путин", "Д.А. Медведев"],
+    correctAnswer: "В.В. Путин"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Какое право Конституция Российской Федерации гарантирует иностранному гражданину на территории Российской Федерации?",
+    options: [
+      "участвовать в управлении делами государства через своих представителей",
+      "избирать в органы государственной власти",
+      "свободно использовать свои способности и имущества для предпринимательской деятельности"
+    ],
+    correctAnswer: "свободно использовать свои способности и имущества для предпринимательской деятельности"
+  },
+  en: {
+    text: "What right does the Constitution of the Russian Federation guarantee to foreign citizens on the territory of the Russian Federation?",
+    options: [
+      "to participate in the management of state affairs through their representatives",
+      "to elect to state bodies",
+      "to freely use their abilities and property for entrepreneurial activities"
+    ],
+    correctAnswer: "to freely use their abilities and property for entrepreneurial activities"
+  },
+  uz: {
+    text: "Rossiya Federatsiyasining Konstitutsiyasi xorijiy fuqarolarga qanday huquqni kafolatlaydi?",
+    options: [
+      "davlat ishlarini o'z vakillari orqali boshqarishda ishtirok etish",
+      "davlat organlariga saylash",
+      "o'z salohiyatlari va mulkini tadbirkorlik faoliyati uchun erkin ishlatish"
+    ],
+    correctAnswer: "o'z salohiyatlari va mulkini tadbirkorlik faoliyati uchun erkin ishlatish"
+  },
+  tj: {
+    text: "Конститутсияи Федератсияи Русия барои шаҳрвандони хориҷӣ кадом ҳуқуқро кафолат медиҳад?",
+    options: [
+      "дар идора кардани корҳои давлатӣ тавассути намояндагони худ ширкат кардан",
+      "барои интихоб кардани мақомоти давлатӣ",
+      "боз кардани қобилиятҳо ва моликиятҳои худро барои фаъолияти соҳибкории шахсӣ"
+    ],
+    correctAnswer: "боз кардани қобилиятҳо ва моликиятҳои худро барои фаъолияти соҳибкории шахсӣ"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "К обязанностям иностранных граждан в Российской Федерации относится",
+    options: [
+      "пройти государственную дактилоскопическую регистрацию",
+      "инвестировать деньги в российскую экономику",
+      "иметь счёт в российском коммерческом банке"
+    ],
+    correctAnswer: "пройти государственную дактилоскопическую регистрацию"
+  },
+  en: {
+    text: "The duties of foreign citizens in the Russian Federation include",
+    options: [
+      "undergo state fingerprint registration",
+      "invest money in the Russian economy",
+      "have an account in a Russian commercial bank"
+    ],
+    correctAnswer: "undergo state fingerprint registration"
+  },
+  uz: {
+    text: "Rossiya Federatsiyasidagi xorijiy fuqarolarning majburiyatlariga kiradi",
+    options: [
+      "davlat daktiloskopik ro'yxatga olishdan o'tish",
+      "Rossiya iqtisodiyotiga investitsiya qilish",
+      "Rossiya tijorat bankida hisob raqamiga ega bo'lish"
+    ],
+    correctAnswer: "davlat daktiloskopik ro'yxatga olishdan o'tish"
+  },
+  tj: {
+    text: "Ба масъулиятҳои шаҳрвандони хориҷӣ дар Федератсияи Русия шомил аст",
+    options: [
+      "гузаронидани сабти дактилоскопии давлатӣ",
+      "сармоягузорӣ кардани пулҳо дар иқтисодиёти Русия",
+      "доштан ҳисоб дар бонки тиҷоратии Русия"
+    ],
+    correctAnswer: "гузаронидани сабти дактилоскопии давлатӣ"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Должен ли иностранный гражданин проходить медицинское освидетельствование для получения разрешения на временное проживание?",
+    options: ["да", "нет", "по желанию"],
+    correctAnswer: "да"
+  },
+  en: {
+    text: "Does a foreign citizen need to undergo a medical examination to obtain a temporary residence permit?",
+    options: ["yes", "no", "optional"],
+    correctAnswer: "yes"
+  },
+  uz: {
+    text: "Xorijiy fuqarolar vaqtinchalik yashash uchun ruxsatnoma olish uchun tibbiy ko'rikdan o'tishlari kerakmi?",
+    options: ["ha", "yo'q", "ixtiyoriy"],
+    correctAnswer: "ha"
+  },
+  tj: {
+    text: "Шаҳрвандони хориҷӣ барои гирифтани иҷозатномаи истиқомат муваққатӣ бояд муоинаи тиббӣ гузаронанд?",
+    options: ["ҳа", "не", "ихтиёрӣ"],
+    correctAnswer: "ҳа"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Срок действия разрешения на временное проживание составляет",
+    options: ["7 лет", "5 лет", "3 года"],
+    correctAnswer: "3 года"
+  },
+  en: {
+    text: "The validity period of a temporary residence permit is",
+    options: ["7 years", "5 years", "3 years"],
+    correctAnswer: "3 years"
+  },
+  uz: {
+    text: "Vaqtinchalik yashash ruxsatnomasining amal qilish muddati",
+    options: ["7 yil", "5 yil", "3 yil"],
+    correctAnswer: "3 yil"
+  },
+  tj: {
+    text: "Муддати иҷозатномаи истиқомат муваққатӣ",
+    options: ["7 сол", "5 сол", "3 сол"],
+    correctAnswer: "3 сол"
+  }
+},
+
+{
+  type: "text",
+  ru: {
+    text: "Представление при осуществлении миграционного учёта заведомо ложных сведений иностранным гражданином, если эти действия не содержат признаков уголовно наказуемого деяния, влечёт",
+    options: [
+      "лишение свободы",
+      "наложение административного штрафа с административным выдворением за пределы Российской Федерации или без такового",
+      "лишение специального права"
+    ],
+    correctAnswer: "наложение административного штрафа с административным выдворением за пределы Российской Федерации или без такового"
+  },
+  en: {
+    text: "The provision of knowingly false information by a foreign citizen during migration registration, if these actions do not contain signs of a criminally punishable act, leads to",
+    options: [
+      "imprisonment",
+      "imposition of an administrative fine with administrative expulsion from the Russian Federation or without it",
+      "deprivation of special rights"
+    ],
+    correctAnswer: "imposition of an administrative fine with administrative expulsion from the Russian Federation or without it"
+  },
+  uz: {
+    text: "Migratsiya ro'yxatga olish jarayonida xorijiy fuqarolar tomonidan noto'g'ri ma'lumotlar taqdim etilishi, agar bu harakatlarda jinoiy javobgarlikni ko'rsatuvchi belgilarga ega bo'lmasa, quyidagiga olib keladi",
+    options: [
+      "qamoqqa olish",
+      "ma'muriy jarima va Rossiya Federatsiyasidan ma'muriy tarzda chiqarib yuborish yoki shunday holatda emas",
+      "maxsus huquqlardan mahrum qilish"
+    ],
+    correctAnswer: "ma'muriy jarima va Rossiya Federatsiyasidan ma'muriy tarzda chiqarib yuborish yoki shunday holatda emas"
+  },
+  tj: {
+    text: "Пешниҳод кардани маълумоти ғалат аз ҷониби шаҳрвандони хориҷӣ ҳангоми анҷом додани ҳисоботи муҳоҷират, агар ин амалҳо нишонаҳои кирдори ҷиноятӣ дошта бошанд, ҷаримаи маъмуриро бо ихроҷ ё бе ихроҷ оварда мерасонад.",
+    options: [
+      "ҳуқуқи озодиро маҳрум кардан",
+      "ҷаримаи маъмурӣ бо ихроҷ маъмурии шаҳрванд аз Федератсияи Русия ё бе он",
+      "маҳрум кардани ҳуқуқи махсус"
+    ],
+    correctAnswer: "ҷаримаи маъмурӣ бо ихроҷ маъмурии шаҳрванд аз Федератсияи Русия ё бе он"
+  }
+},
+{
+  type: "text",
+  ru: {
+    text: "Ранее выданное разрешение на временное проживание аннулируется в случае, если иностранный гражданин своими действиями создаёт угрозу безопасности Российской Федерации или граждан Российской Федерации. Верно ли это утверждение?",
+    options: ['верно', 'неверно'],
+    correctAnswer: 'верно'
+  },
+  en: {
+    text: "A previously issued temporary residence permit is annulled if the foreign citizen's actions pose a threat to the security of the Russian Federation or its citizens. Is this statement true?",
+    options: ['true', 'false'],
+    correctAnswer: 'true'
+  },
+  uz: {
+    text: "Oldin berilgan vaqtinchalik yashash ruxsatnomasi bekor qilinadi, agar xorijiy fuqaroning harakatlari Rossiya Federatsiyasining xavfsizligiga yoki uning fuqarolariga tahdid solsa. Ushbu bayonot to'g'rimi?",
+    options: ['ha', 'yo\'q'],
+    correctAnswer: 'ha'
+  },
+  tj: {
+    text: "Агар шаҳрванди хориҷӣ бо амалҳои худ таҳдиди амнияти Федератсияи Русия ё шаҳрвандони Федератсияи Русия эҷод кунад, пас иҷозатномаи пешин барои истиқомат муваққатӣ бекор карда мешавад. Оё ин дуруст аст?",
+    options: ['дуруст', 'нотўғри'],
+    correctAnswer: 'дуруст'
+  }
+}
+  ];
+const questionsVNZh = [
+{
+  "type": "speaking",
+  "excludeFromStatistics": true,
+  "ru": {
+    "text": "Начните диалог.\n\nВы пришли в посольство. Вам нужно оформить срочную визу. Узнайте, какие документы нужны для оформления.",
+    "exampleAnswer": "Здравствуйте! Добрый день!\n\nЯ пришёл оформить срочную визу, у меня экстренная ситуация — нужно срочно вылететь по работе/к родным. Подскажите, пожалуйста, какие документы для этого нужны?\n\nОбязательно паспорт, фото, анкета? А ещё подтверждение цели поездки, финансовые документы, страховка? Сколько времени займёт оформление срочной визы?\n\nСпасибо большое за информацию! Я соберу всё необходимое и приду заново. До свидания!"
+  },
+  "en": {
+    "text": "Start the dialogue.\n\nYou came to the embassy. You need to apply for an urgent visa. Find out what documents are needed for the application.",
+    "exampleAnswer": "Hello! Good afternoon!\n\nI came to apply for an urgent visa, I have an emergency situation — I need to fly urgently for work/to relatives. Could you please tell me what documents are needed for this?\n\nDefinitely passport, photo, application form? And also proof of the purpose of the trip, financial documents, insurance? How long will it take to process an urgent visa?\n\nThank you very much for the information! I'll gather everything necessary and come back. Goodbye!"
+  },
+  "uz": {
+    "text": "Dialogni boshlang.\n\nSiz elchixonaga keldingiz. Sizga shoshilinch viza rasmiylashtirish kerak. Rasmiylashtirish uchun qanday hujjatlar kerakligini so'rang.",
+    "exampleAnswer": "Salom! Xayrli kun!\n\nMen shoshilinch viza rasmiylashtirish uchun keldim, menda favqulodda vaziyat — ishga/oilamga tez orada uchish kerak. Iltimos, buning uchun qanday hujjatlar kerakligini ayting?\n\nAlbatta pasport, fotosurat, anketa? Yana sayohat maqsadini tasdiqlash, moliyaviy hujjatlar, sug'urta? Shoshilinch vizani rasmiylashtirish qancha vaqt oladi?\n\nMa'lumot uchun katta rahmat! Kerakli hamma narsani yig'ib, yana kelaman. Xayr!"
+  },
+  "tj": {
+    "text": "Диалогро оғоз кунед.\n\nШумо ба сафорат омадед. Ба шумо визаи фаврӣ расмӣ кардан лозим аст. Пурсед, ки барои расмӣ кардан кадом ҳуҷҷатҳо лозиманд.",
+    "exampleAnswer": "Салом! Хайрли рӯз!\n\nМан барои расмӣ кардани визаи фаврӣ омадам, ман вазъи фавқулодда дорам — бояд фавран барои кор/ба хешовандон парвоз кунам. Лутфан, гӯед, ки барои ин кадом ҳуҷҷатҳо лозиманд?\n\nАлбатта паспорт, сурат, анкета? Ҳанӯз тасдиқи мақсади сафар, ҳуҷҷатҳои молиявӣ, суғурта? Расмӣ кардани визаи фаврӣ чӣ қадар вақт мегирад?\n\nБарои маълумот ташаккури зиёд! Ҳамаи лозимаро ҷамъ карда, боз меоям. Хайр!"
+  }
+},
+{
+  "type": "audioOnly",
+  "audioUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/687e3c6f00113c6e1782/view?project=6721fc620035074537ed",
+  "excludeFromStatistics": true,
+  "ru": {
+    "text": "Примите участие в диалоге.\n\nОтветьте на вопросы собеседника полными предложениями.",
+    "transcript": "1. Каким видом спорта вы занимаетесь? Почему?\n2. Вы предпочитаете ходить в тренажёрный зал или заниматься на свежем воздухе?\n3. Вы смотрите спортивные передачи по телевизору? Какие?\n4. Почему спорт важен в жизни человека?",
+    "exampleAnswer": "Я занимаюсь плаванием. Выбрал этот вид спорта, потому что он развивает все мышцы тела, улучшает выносливость и помогает расслабиться после работы. Плаваю два-три раза в неделю в бассейне.\n\nЯ предпочитаю заниматься на свежем воздухе — бегать в парке или кататься на велосипеде. Там приятнее, воздух чище, и можно наслаждаться природой, а не сидеть в душном зале.\n\nДа, я смотрю спортивные передачи по телевизору. Чаще всего футбол — матчи Лиги чемпионов или чемпионат мира, иногда баскетбол NBA или Олимпийские игры. Люблю комментаторов, которые интересно рассказывают.\n\nСпорт очень важен в жизни человека, потому что он укрепляет здоровье, помогает поддерживать форму, снижает стресс и учит дисциплине. Регулярные занятия спортом продлевают жизнь и улучшают настроение."
+  },
+  "en": {
+    "text": "Take part in the dialogue.\n\nAnswer the interlocutor's questions in full sentences.",
+    "transcript": "1. What sport do you do? Why?\n2. Do you prefer to go to the gym or exercise outdoors?\n3. Do you watch sports programs on TV? Which ones?\n4. Why is sport important in a person's life?",
+    "exampleAnswer": "I do swimming. I chose this sport because it develops all the muscles of the body, improves endurance and helps relax after work. I swim two or three times a week in the pool.\n\nI prefer to exercise outdoors — running in the park or cycling. It's nicer there, the air is cleaner, and you can enjoy nature instead of sitting in a stuffy gym.\n\nYes, I watch sports programs on TV. Mostly football — Champions League matches or the World Cup, sometimes NBA basketball or the Olympic Games. I like commentators who tell interesting stories.\n\nSport is very important in a person's life because it strengthens health, helps maintain shape, reduces stress and teaches discipline. Regular sports activities prolong life and improve mood."
+  },
+  "uz": {
+    "text": "Dialogda ishtirok eting.\n\nSuhbatdoshning savollariga to'liq jumlalar bilan javob bering.",
+    "transcript": "1. Siz qanday sport turi bilan shug'ullanasiz? Nega?\n2. Siz sport zaliga borishni yoki ochiq havoda mashq qilishni afzal ko'rasizmi?\n3. Televizorda sport dasturlarini ko'rasizmi? Qandaylarini?\n4. Nega sport inson hayotida muhim?",
+    "exampleAnswer": "Men suzish bilan shug'ullanaman. Bu sport turini tanladim, chunki u tananing barcha mushaklarini rivojlantiradi, chidamlilikni oshiradi va ishdan keyin dam olishga yordam beradi. Haftada ikki-uch marta basseynada suzaman.\n\nMen ochiq havoda mashq qilishni afzal ko'raman — parkda yugurish yoki velosipedda sayr qilish. U yerda yoqimliroq, havo toza, va tabiatdan bahramand bo'lish mumkin, dushli zalda o'tirish o'rniga.\n\nHa, televizorda sport dasturlarini ko'raman. Ko'pincha futbol — Chempionlar ligasi o'yinlari yoki Jahon chempionati, ba'zan NBA basketboli yoki Olimpiya o'yinlari. Qiziqarli hikoya qiladigan kommentatorlarni yoqtiraman.\n\nSport inson hayotida juda muhim, chunki u salomatlikni mustahkamlaydi, formani saqlashga yordam beradi, stressni kamaytiradi va intizomni o'rgatadi. Doimiy sport mashqlari umrni uzaytiradi va kayfiyatni yaxshilaydi."
+  },
+  "tj": {
+    "text": "Дар диалог иштирок кунед.\n\nБа саволҳои ҳамсӯҳбат бо ҷумлаҳои пурра ҷавоб диҳед.",
+    "transcript": "1. Шумо бо кадом намуди варзиш машғул ҳастед? Чаро?\n2. Шумо ба зали спортӣ рафтанро афзал медонед ё дар ҳавои тоза машқ карданро?\n3. Шумо барномаҳои спортӣ дар телевизорро тамошо мекунед? Кадомҳоро?\n4. Чаро варзиш дар ҳаёти инсон муҳим аст?",
+    "exampleAnswer": "Ман бо шиноварӣ машғул ҳастам. Ин намуди варзишро интихоб кардам, зеро он ҳамаи мушакҳои баданро рушд медиҳад, устувориро зиёд мекунад ва пас аз кор ором кардан кӯмак мерасонад. Ҳафтае ду-се маротиба дар ҳавз шиноварӣ мекунам.\n\nМан машқ кардан дар ҳавои тоза афзал медонам — дар боғ давидан ё бо велосипед сайр кардан. Дар он ҷо хуштар аст, ҳаво тоза, ва метавонед аз табиат лаззат баред, на дар зали душвор нишастан.\n\nҲа, барномаҳои спортӣ дар телевизорро тамошо мекунам. Аксаран футбол — бозиҳои Лигаи чемпионҳо ё Ҷоми ҷаҳон, баъзан баскетболи NBA ё Бозиҳои олимпӣ. Комментаторҳои ҷолибро дӯст медорам, ки қиссаҳои ҷолиб мегӯянд.\n\nВарзиш дар ҳаёти инсон хеле муҳим аст, зеро саломатиро мустаҳкам мекунад, шаклро нигоҳ медорад, стрессро кам мекунад ва интизомро меомӯзад. Машқҳои доимӣ умрро дароз мекунад ва ҳолати рӯҳиро беҳтар месозад."
+  }
+},
+{
+  "type": "speaking",
+  "excludeFromStatistics": true,
+  "ru": {
+    "text": "Начните диалог. Получите нужную Вам информацию. Будьте вежливы.\n\nПредставьте ситуацию. Вы пришли в школу к классному руководителю Вашего ребёнка. Поздоровайтесь. Узнайте, как учится Ваш ребёнок; спросите, как он общается с другими детьми в классе. Уточните, сколько детей в классе, дайте этому оценку. Поблагодарите за полученную информацию.",
+    "exampleAnswer": "Здравствуйте! Добрый день!\n\nЯ родитель [имя ребёнка], пришёл поговорить о его учёбе и поведении. Как он учится в этом году? Есть ли успехи в предметах или какие-то проблемы?\n\nА как он общается с другими детьми в классе? Дружит ли с кем-то, участвует в общих играх, или бывают конфликты?\n\nСкажите, пожалуйста, сколько всего детей в классе? О, 25 человек — это оптимально, не слишком много, учитель может уделить внимание каждому, но и не мало, чтобы дети учились социализироваться.\n\nБольшое спасибо за подробную информацию и за вашу заботу о детях! До свидания, хорошего дня!"
+  },
+  "en": {
+    "text": "Start the dialogue. Get the information you need. Be polite.\n\nImagine the situation. You came to school to your child's class teacher. Greet them. Find out how your child is studying; ask how he communicates with other children in the class. Clarify how many children are in the class, give an assessment to this. Thank them for the information received.",
+    "exampleAnswer": "Hello! Good afternoon!\n\nI am the parent of [child's name], I came to talk about his studies and behavior. How is he doing this year? Are there any successes in subjects or any problems?\n\nAnd how does he communicate with other children in the class? Does he make friends with anyone, participate in common games, or are there conflicts?\n\nCould you please tell me how many children are in the class in total? Oh, 25 people — that's optimal, not too many, the teacher can pay attention to each one, but not too few so that the children learn to socialize.\n\nThank you very much for the detailed information and for your care for the children! Goodbye, have a nice day!"
+  },
+  "uz": {
+    "text": "Dialogni boshlang. Kerakli ma'lumotni oling. Xushmuomala bo'ling.\n\nVaziyatni tasavvur qiling. Siz maktabga farzandingizning sinf rahbariga keldingiz. Salomlashib qo'ying. Farzandingiz qanday o'qiyotganini so'rang; sinfdagi boshqa bolalar bilan qanday muloqot qilishini so'rang. Sinfda nechta bola borligini aniqlang, bunga baho bering. Olingan ma'lumot uchun rahmat aytib qo'ying.",
+    "exampleAnswer": "Salom! Xayrli kun!\n\nMen [bolaning ismi]ning ota-onasiman, uning o'qishi va xulq-atvori haqida gaplashish uchun keldim. Bu yil qanday o'qiyapti? Fanlarda muvaffaqiyatlar yoki muammolar bormi?\n\nSinfdagi boshqa bolalar bilan qanday muloqot qiladi? Kimdir bilan do'stlashadimi, umumiy o'yinlarda ishtirok etadimi, yoki mojarolar bo'ladimi?\n\nIltimos, sinfda jami nechta bola borligini ayting? Oh, 25 kishi — bu optimal, juda ko'p emas, o'qituvchi har biriga e'tibor bera oladi, lekin juda kam emas, bolalar ijtimoiylashishni o'rganadi.\n\nBatafsil ma'lumot va bolalarga g'amxo'rlik uchun katta rahmat! Xayr, yaxshi kun tilayman!"
+  },
+  "tj": {
+    "text": "Диалогро оғоз кунед. Маълумоти лозимаро гиред. Муаддаб бошед.\n\nВазъиятро тасаввур кунед. Шумо ба мактаб ба назди роҳбари синфи фарзандатон омадед. Салом диҳед. Пурсед, ки фарзандатон чӣ тавр мехонад; пурсед, ки ӯ бо дигар кӯдакони синф чӣ гуна муошират мекунад. Муайян кунед, ки дар синф чанд кӯдак аст, ба ин арзёбӣ диҳед. Барои маълумоти гирифташуда ташаккур гӯед.",
+    "exampleAnswer": "Салом! Хайрли рӯз!\n\nМан падару модари [номи фарзанд] ҳастам, барои сӯҳбат дар бораи таҳсил ва рафтори ӯ омадам. Имсол чӣ тавр мехонад? Дар фанҳо муваффақиятҳо ё мушкилотҳо ҳастанд?\n\nВа бо дигар кӯдакони синф чӣ гуна муошират мекунад? Бо касе дӯстӣ мекунад, дар бозиҳои умумӣ иштирок мекунад, ё низоъҳо мешаванд?\n\nЛутфан, гӯед, ки дар синф ҳамагӣ чанд кӯдак аст? Оҳ, 25 нафар — ин беҳтарин аст, на хеле зиёд, омӯзгор метавонад ба ҳар як диққат диҳад, аммо на хеле кам, то кӯдакон иҷтимоӣ шуданро омӯзанд.\n\nБарои маълумоти муфассал ва ғамхорӣ ба кӯдакон ташаккури зиёд! Хайр, рӯзи хуб орзу мекунам!"
+  }
+},
+{
+  "type": "speaking",
+  "excludeFromStatistics": true,
+  "ru": {
+    "text": "Опишите картинку.\n\nВаше сообщение должно содержать следующую информацию:\n\n– Что изображено на рисунке (место, время года и т.д.)?\n– Кто изображён на рисунке?\n– Что они делают?\n– Расскажите подробнее о любом человеке, изображённом на рисунке.\n– Как Вы отдыхали в детстве? Где?\n– Как отдыхают современные дети?",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e3c5a0003f64fa21b/view?project=6721fc620035074537ed",
+    "exampleAnswer": "На рисунке изображён летний отдых на природе у реки или озера. Время года — лето: яркое солнце, зелёная трава, деревья с листвой, вода блестит, все в лёгкой одежде. На берегу расстелен коврик, рядом вещи, книги, букет цветов, атмосфера весёлая и беззаботная.\nНа картинке несколько детей разного возраста: мальчик ловит рыбу удочкой, двое мальчиков лежат на коврике (один в очках, рядом с ним книга), девочка с букетом цветов разговаривает с ними, в воде купаются четверо детей — три девочки и мальчик, все плещутся и радуются. Дети играют в мяч, общаются, наслаждаются летом.\nОсобенно заметен мальчик, который лежит на коврике в очках: он в светлой одежде, рядом с ним открытая книга, смотрит спокойно и улыбается. Как мне кажется, это спокойный, задумчивый ребёнок, который любит читать даже на отдыхе и, наверное, плохо видит без очков, но это ему не мешает быть частью компании.\nВ детстве я отдыхал в пионерском лагере у реки — там было много игр, походов, спортивных соревнований, а вечером мы разводили костёр, пели песни и рассказывали истории. Мне это очень нравилось. Современные дети чаще отдыхают дома или в гаджетах — играют в телефоне, смотрят видео, общаются в интернете, реже бегают на улице или купаются в реке, как мы в своё время."
+  },
+  "en": {
+    "text": "Describe the picture.\n\nYour message should contain the following information:\n\n– What is depicted in the drawing (place, time of year, etc.)?\n– Who is depicted in the drawing?\n– What are they doing?\n– Tell more about any person depicted in the drawing.\n– How did you rest in childhood? Where?\n– How do modern children rest?",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e3c5a0003f64fa21b/view?project=6721fc620035074537ed",
+    "exampleAnswer": "The drawing depicts summer recreation in nature by a river or lake. The time of year is summer: bright sun, green grass, trees with foliage, water glistening, everyone in light clothing. A mat is spread on the shore, with things, books, a bouquet of flowers nearby, the atmosphere is cheerful and carefree.\nThe picture shows several children of different ages: a boy catching fish with a fishing rod, two boys lying on the mat (one in glasses, with a book next to him), a girl with a bouquet of flowers talking to them, four children swimming in the water — three girls and a boy, all splashing and rejoicing. The children are playing ball, communicating, enjoying summer.\nEspecially noticeable is the boy lying on the mat in glasses: he is in light clothing, with an open book next to him, looking calmly and smiling. It seems to me that this is a calm, thoughtful child who loves to read even on vacation and probably sees poorly without glasses, but this doesn't prevent him from being part of the company.\nIn childhood, I rested at a pioneer camp by the river — there were many games, hikes, sports competitions, and in the evening we made a bonfire, sang songs and told stories. I really liked it. Modern children more often rest at home or in gadgets — play on the phone, watch videos, communicate on the internet, less often run outside or swim in the river, like we did in our time."
+  },
+  "uz": {
+    "text": "Rasmni tasvirlang.\n\nXabaringiz quyidagi ma'lumotlarni o'z ichiga olishi kerak:\n\n– Rasmda nima tasvirlangan (joy, yil vaqti va h.k.)?\n– Rasmda kim tasvirlangan?\n– Ular nima qilmoqdalar?\n– Rasmda tasvirlangan har qanday odam haqida batafsil aytib bering.\n– Bolaligingizda qanday dam oldingiz? Qayerda?\n– Zamonaviy bolalar qanday dam olishadi?",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e3c5a0003f64fa21b/view?project=6721fc620035074537ed",
+    "exampleAnswer": "Rasmda daryo yoki ko'l yonidagi tabiatda yozgi dam olish tasvirlangan. Yil vaqti — yoz: yorqin quyosh, yashil o't, bargli daraxtlar, suv porlaydi, hamma engil kiyimda. Sohilda gilam yoyilgan, yonida narsalar, kitoblar, gullar destasi, atmosfera quvonchli va beparvo.\nRasmda turli yoshdagi bir necha bolalar: bola qarmoq bilan baliq tutmoqda, ikki bola gilam ustida yotibdi (biri ko'zoynakda, yonida kitob), gullar destasi bilan qiz ularga gapiryapti, suvda to'rtta bola — uch qiz va bola, hammasi chayqalib, xursand. Bolalar to'p o'ynashmoqda, suhbatlashmoqda, yozdan bahramand.\nAyniqsa e'tiborga loyiq gilam ustida ko'zoynakda yotgan bola: u yorqin kiyimda, yonida ochiq kitob, tinch qarab, tabassum qilmoqda. Menga shunday tuyuladiki, bu tinch, o'ychan bola, dam olishda ham kitob o'qishni yoqtiradi va ehtimol ko'zoynaksiz yomon ko'radi, lekin bu unga kompaniya qismi bo'lishga xalaqit bermaydi.\nBolaligimda daryo yonidagi pioner lagerida dam oldim — u yerda ko'p o'yinlar, sayohatlar, sport musobaqalari bo'lardi, kechqurun olov yoqardik, qo'shiq aytardik va hikoyalar aytardik. Menga bu juda yoqardi. Zamonaviy bolalar ko'pincha uyda yoki gadjetlarda dam olishadi — telefonda o'ynashadi, video ko'rishadi, internetda suhbatlashishadi, kamdan-kam ko'chada yugurishadi yoki daryoda suzishadi, bizning vaqtimizdagi kabi."
+  },
+  "tj": {
+    "text": "Расмро тавсиф кунед.\n\nПаёми шумо бояд маълумоти зеринро дар бар гирад:\n\n– Дар расм чӣ тасвир шудааст (ҷой, фасли сол ва ғайра)?\n– Дар расм кӣ тасвир шудааст?\n– Онҳо чӣ кор мекунанд?\n– Дар бораи ҳар як шахси тасвиршуда дар расм муфассал нақл кунед.\n– Дар кӯдакӣ чӣ тавр истироҳат мекардед? Дар куҷо?\n– Кӯдакони муосир чӣ тавр истироҳат мекунанд?",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e3c5a0003f64fa21b/view?project=6721fc620035074537ed",
+    "exampleAnswer": "Дар расм истироҳати тобистона дар табиат дар назди дарё ё кӯл тасвир шудааст. Фасли сол — тобистон: офтоби дурахшон, алафи сабз, дарахтони баргдор, об ҷилва медиҳад, ҳама дар либоси сабук. Дар соҳил қолин паҳн карда шудааст, паҳлӯяш чизҳо, китобҳо, гулдастаи гулҳо, атмосфера шодмон ва беғам аст.\nДар расм чанд кӯдаки синну соли гуногун: писар бо қармоқ моҳӣ медорад, ду писар дар қолин мехобанд (яке бо айнак, паҳлӯяш китоб), духтар бо гулдастаи гулҳо бо онҳо сӯҳбат мекунад, дар об чаҳор кӯдак — се духтар ва писар, ҳама чуқур мезананд ва шоданд. Кӯдакон тӯб бозӣ мекунанд, муошират мекунанд, аз тобистон лаззат мебаранд.\nХусусан писаре, ки дар қолин бо айнак мехобад, диққатҷалб аст: ӯ дар либоси равшан, паҳлӯяш китоби кушода, ором нигоҳ мекунад ва табассум мекунад. Ба назари ман, ин кӯдаки ором ва фикррону аст, ки ҳатто дар истироҳат китоб хонданро дӯст медорад ва эҳтимол бе айнак бад мебинад, аммо ин ба ӯ ҳамчун қисми ширкат буданро монеъ намешавад.\nДар кӯдакӣ ман дар лагери пионерӣ дар назди дарё истироҳат мекардам — дар он ҷо бозиҳои зиёд, сафарҳо, мусобиқаҳои варзишӣ буд, шабона оташ мезадем, суруд мехондем ва ҳикояҳо мегӯфтем. Ба ман ин хеле маъқул буд. Кӯдакони муосир аксар вақт дар хона ё дар гаджетҳо истироҳат мекунанд — дар телефон бозӣ мекунанд, видео тамошо мекунанд, дар интернет муошират мекунанд, камтар дар кӯча медаванд ё дар дарё шиноварӣ мекунанд, мисли мо дар замонамон."
+  }
+},
+{
+  "type": "audio",
+  "audioUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/687e3c7b001fc3d09814/view?project=6721fc620035074537ed",
+  "ru": {
+    "text": "Прослушайте диалог и определите, где происходит разговор. Выберите правильный ответ.",
+    "options": [
+      "в кассе кинотеатра",
+      "в кассе магазина",
+      "в кассе вокзала"
+    ],
+    "correctAnswer": "в кассе кинотеатра",
+    "transcript": "Скажите, пожалуйста, у вас есть билеты на фильм «Шоколад»?\nКассир:\nА на какое время?\nПокупатель:\nНа семь часов.\nКассир:\nК сожалению, уже нет. Осталось только пять билетов на девять часов.\nПокупатель:\nХорошо, тогда два билета, пожалуйста.\nКассир:\nС вас шестьсот рублей."
+  },
+  "en": {
+    "text": "Listen to the dialogue and determine where the conversation is taking place. Choose the correct answer.",
+    "options": [
+      "at the cinema box office",
+      "at the store checkout",
+      "at the station ticket office"
+    ],
+    "correctAnswer": "at the cinema box office",
+    "transcript": "Could you please tell me if you have tickets for the movie 'Chocolate'?\nCashier:\nFor what time?\nBuyer:\nFor seven o'clock.\nCashier:\nUnfortunately, no more. Only five tickets left for nine o'clock.\nBuyer:\nOkay, then two tickets, please.\nCashier:\nSix hundred rubles from you."
+  },
+  "uz": {
+    "text": "Dialogni tinglang va suhbat qayerda bo'layotganini aniqlang. To'g'ri javobni tanlang.",
+    "options": [
+      "kinoteatr kassasida",
+      "do'kon kassasida",
+      "vokzal kassasida"
+    ],
+    "correctAnswer": "kinoteatr kassasida",
+    "transcript": "Iltimos, ayting, sizda «Shokolad» filmi uchun chiptalar bormi?\nKassir:\nQaysi vaqtga?\nXaridor:\nYetti soatga.\nKassir:\nAfsuski, yo'q. Faqat to'qqiz soatga beshta chipta qoldi.\nXaridor:\nYaxshi, unda ikkita chipta, iltimos.\nKassir:\nSizdan olti yuz rubl."
+  },
+  "tj": {
+    "text": "Суҳбатро гӯш кунед ва муайян кунед, ки гуфтугӯ дар куҷо мегузарад. Ҷавоби дурустро интихоб кунед.",
+    "options": [
+      "дар кассаи кинотеатр",
+      "дар кассаи мағоза",
+      "дар кассаи вокзал"
+    ],
+    "correctAnswer": "дар кассаи кинотеатр",
+    "transcript": "Лутфан, гӯед, ки оё шумо чиптаҳо барои филми «Шоколад» доред?\nКассир:\nБарои кадом вақт?\nХаридор:\nБарои ҳафт соат.\nКассир:\nМутаассифона, не. Фақат панҷ чипта барои нӯҳ соат мондааст.\nХаридор:\nХуб, пас ду чипта, лутфан.\nКассир:\nАз шумо шашсад рубл."
+  }
+},
+{
+  "type": "textInput",
+  "audioUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/687e3c81000d0e738c9b/view?project=6721fc620035074537ed",
+  "ru": {
+    "text": "Прослушайте диалог и дополните предложение в соответствии с информацией в тексте.\n\nЛетом Вера отдыхала у бабушки ____________ .",
+    "correctAnswer": "в деревне",
+    "transcript": "Собеседник:\nВера, где ты отдыхала летом? Наверное, на море, на пляже?\nВера:\nНет, в деревне у бабушки. Я очень хорошо провела время.",
+    "exampleAnswer": "в деревне"
+  },
+  "en": {
+    "text": "Listen to the dialogue and complete the sentence according to the information in the text.\n\nIn summer, Vera rested at her grandmother's ____________ .",
+    "correctAnswer": "in the village",
+    "transcript": "Interlocutor:\nVera, where did you rest in summer? Probably at the sea, on the beach?\nVera:\nNo, in the village at my grandmother's. I had a very good time.",
+    "exampleAnswer": "in the village"
+  },
+  "uz": {
+    "text": "Dialogni tinglang va matndagi ma'lumotga muvofiq gapni to'ldiring.\n\nYozda Vera buvisinikida ____________ dam oldi.",
+    "correctAnswer": "qishloqda",
+    "transcript": "Suhbatdosh:\nVera, yozda qayerda dam olding? Ehtimol dengizda, plyajda?\nVera:\nYo'q, qishloqda buvimnikida. Men juda yaxshi vaqt o'tkazdim.",
+    "exampleAnswer": "qishloqda"
+  },
+  "tj": {
+    "text": "Суҳбатро гӯш кунед ва мувофиқи маълумот дар матн ҷумларо пурра кунед.\n\nДар тобистон Вера дар назди бибӣ ____________ истироҳат кард.",
+    "correctAnswer": "дар деҳа",
+    "transcript": "Ҳамсӯҳбат:\nВера, дар тобистон куҷо истироҳат кардӣ? Эҳтимол дар баҳр, дар соҳил?\nВера:\nНе, дар деҳа дар назди бибӣ. Ман вақти хеле хуб гузарондам.",
+    "exampleAnswer": "дар деҳа"
+  }
+},
+{
+  "type": "audio",
+  "audioUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/687e3c8600354ba8c190/view?project=6721fc620035074537ed",
+  "ru": {
+    "text": "Прослушайте начало диалога и выберите правильную ответную реплику.",
+    "options": [
+      "Раньше я работала администратором в отеле.",
+      "С документами работать скучно.",
+      "Мне не нравится сейчас моя работа."
+    ],
+    "correctAnswer": "С документами работать скучно.",
+    "transcript": "Какая работа тебе больше нравится: с людьми или с документами?"
+  },
+  "en": {
+    "text": "Listen to the beginning of the dialogue and choose the correct response.",
+    "options": [
+      "Previously, I worked as an administrator in a hotel.",
+      "Working with documents is boring.",
+      "I don't like my current job."
+    ],
+    "correctAnswer": "Working with documents is boring.",
+    "transcript": "What job do you like more: with people or with documents?"
+  },
+  "uz": {
+    "text": "Dialogning boshlanishini tinglang va to'g'ri javob replikasini tanlang.",
+    "options": [
+      "Avval mehmonxonada administrator bo'lib ishlaganman.",
+      "Hujjatlar bilan ishlash zerikarli.",
+      "Hozirgi ishim yoqmaydi."
+    ],
+    "correctAnswer": "Hujjatlar bilan ishlash zerikarli.",
+    "transcript": "Qaysi ish sizga ko'proq yoqadi: odamlar bilanmi yoki hujjatlar bilanmi?"
+  },
+  "tj": {
+    "text": "Оғози диалогро гӯш кунед ва ҷавоби мувофиқро интихоб кунед.",
+    "options": [
+      "Қаблан ман ҳамчун администратор дар меҳмонхона кор мекардам.",
+      "Кор бо ҳуҷҷатҳо дилгиркунанда аст.",
+      "Ба ман кори ҳозира маъқул нест."
+    ],
+    "correctAnswer": "Кор бо ҳуҷҷатҳо дилгиркунанда аст.",
+    "transcript": "Кадом кор ба шумо бештар маъқул аст: бо одамон ё бо ҳуҷҷатҳо?"
+  }
+},
+{
+  "type": "audioGroup",
+  "audioUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841723b002d6c408133/files/687e3c92002168b87f1a/view?project=6721fc620035074537ed",
+  "ru": {
+    "text": "Прослушайте объявление и выберите правильный ответ в заданиях 1–3.",
+    "transcript": "Итак, сегодня мы хотели бы познакомить вас с нашей компанией «Чистый дом», которая работает на рынке уже более десяти лет.\nЧем мы занимаемся? Мы освобождаем вас от скучной и неинтересной работы — регулярной уборки квартиры. Можно уверенно сказать, что наша компания является лидером на этом рынке.\nПочему? В нашей компании работают опытные и квалифицированные сотрудники с более чем десятилетним стажем. Мы предлагаем высокое качество работы за небольшие деньги. Вы можете сравнить наши цены с ценами других компаний и будете приятно удивлены.\nЕсли вы останетесь недовольны нашей работой, мы исправим все ошибки и всё сделаем ещё раз. Однако в нашей практике недовольных клиентов не было.\nМы ждём вас! Звоните нам по телефону: 8 (495) 234-69-82 или обращайтесь на наш сайт «Чистый дом».",
+    "subQuestions": [
+      {
+        "text": "Это объявление будет интересно для тех, кто ищет",
+        "options": [
+          "постоянную работу",
+          "хорошую компанию по уборке",
+          "сотрудников для компании"
+        ],
+        "correctAnswer": "хорошую компанию по уборке"
+      },
+      {
+        "text": "Компания занимается",
+        "options": [
+          "уборкой квартир",
+          "обучением сотрудников",
+          "уборкой офисов"
+        ],
+        "correctAnswer": "уборкой квартир"
+      },
+      {
+        "text": "Основное правило компании:",
+        "options": [
+          "делать работу хорошо",
+          "увеличивать зарплаты",
+          "сохранить низкие цены"
+        ],
+        "correctAnswer": "сохранить низкие цены"
+      }
+    ]
+  },
+  "en": {
+    "text": "Listen to the announcement and choose the correct answer for questions 1–3.",
+    "transcript": "So, today we would like to introduce you to our company 'Clean House', which has been operating in the market for more than ten years.\nWhat do we do? We free you from boring and uninteresting work — regular apartment cleaning. We can confidently say that our company is a leader in this market.\nWhy? Our company employs experienced and qualified employees with more than ten years of experience. We offer high quality work for little money. You can compare our prices with the prices of other companies and you will be pleasantly surprised.\nIf you remain dissatisfied with our work, we will correct all errors and do everything again. However, in our practice there have been no dissatisfied customers.\nWe are waiting for you! Call us at: 8 (495) 234-69-82 or visit our website 'Clean House'.",
+    "subQuestions": [
+      {
+        "text": "This announcement will be interesting for those who are looking for",
+        "options": [
+          "permanent work",
+          "a good cleaning company",
+          "employees for the company"
+        ],
+        "correctAnswer": "a good cleaning company"
+      },
+      {
+        "text": "The company is engaged in",
+        "options": [
+          "apartment cleaning",
+          "employee training",
+          "office cleaning"
+        ],
+        "correctAnswer": "apartment cleaning"
+      },
+      {
+        "text": "The main rule of the company:",
+        "options": [
+          "do the job well",
+          "increase salaries",
+          "keep low prices"
+        ],
+        "correctAnswer": "keep low prices"
+      }
+    ]
+  },
+  "uz": {
+    "text": "E'lonni tinglang va 1–3-savollarga to'g'ri javob tanlang.",
+    "transcript": "Shunday qilib, bugun biz sizni «Toza uy» kompaniyamiz bilan tanishtirmoqchimiz, u bozorda o'n yildan ortiq ishlayapti.\nBiz nima bilan shug'ullanamiz? Biz sizni zerikarli va qiziqarli bo'lmagan ishdan — xonadonni muntazam tozalashdan ozod qilamiz. Bizning kompaniyamiz bu bozorda yetakchi ekanligini ishonch bilan aytish mumkin.\nNega? Kompaniyamizda o'n yildan ortiq tajribaga ega tajribali va malakali xodimlar ishlaydi. Biz kam pulga yuqori sifatli ish taklif qilamiz. Siz bizning narxlarimizni boshqa kompaniyalar narxlari bilan solishtirishingiz mumkin va yoqimli ajablanasiz.\nAgar siz bizning ishmizdan norozi bo'lsangiz, biz barcha xatolarni tuzatamiz va hammasini yana qilamiz. Ammo bizning amaliyotimizda norozi mijozlar bo'lmagan.\nBiz sizni kutamiz! Bizga telefon orqali qo'ng'iroq qiling: 8 (495) 234-69-82 yoki «Toza uy» saytimizga murojaat qiling.",
+    "subQuestions": [
+      {
+        "text": "Bu e'lon quyidagilar uchun qiziqarli bo'ladi, kim izlayotgan bo'lsa",
+        "options": [
+          "doimiy ish",
+          "yaxshi tozalash kompaniyasi",
+          "kompaniya uchun xodimlar"
+        ],
+        "correctAnswer": "yaxshi tozalash kompaniyasi"
+      },
+      {
+        "text": "Kompaniya shug'ullanadi",
+        "options": [
+          "xonadon tozalash",
+          "xodimlarni o'qitish",
+          "ofis tozalash"
+        ],
+        "correctAnswer": "xonadon tozalash"
+      },
+      {
+        "text": "Kompaniyaning asosiy qoidasi:",
+        "options": [
+          "ishni yaxshi qilish",
+          "maoshlarni oshirish",
+          "past narxlarni saqlash"
+        ],
+        "correctAnswer": "past narxlarni saqlash"
+      }
+    ]
+  },
+  "tj": {
+    "text": "Эълонро гӯш кунед ва ба саволҳои 1–3 ҷавоби дурустро интихоб кунед.",
+    "transcript": "Пас, имрӯз мо мехоҳем шуморо бо ширкати мо «Хонаи тоза» шинос кунем, ки дар бозор зиёда аз даҳ сол кор мекунад.\nМо чӣ кор мекунем? Мо шуморо аз кори дилгиркунанда ва ҷолиб набуда — тоза кардани ҳуҷраҳо озод мекунем. Метавонем бо итминон гӯем, ки ширкати мо дар ин бозор пешсаф аст.\nЧаро? Дар ширкати мо кормандони таҷрибадор ва малакадор бо зиёда аз даҳ соли таҷриба кор мекунанд. Мо кори сифати баландро барои пули кам пешниҳод мекунем. Шумо метавонед нархҳои моро бо нархҳои ширкатҳои дигар муқоиса кунед ва ҳайрон мешавед.\nАгар шумо аз кори мо норозӣ монед, мо ҳамаи хатоҳоро ислоҳ мекунем ва ҳамаро боз такрор мекунем. Аммо дар амалияи мо мизоҷони норозӣ набуданд.\nМо шуморо интизорем! Ба мо бо телефон занг занед: 8 (495) 234-69-82 ё ба сайти мо «Хонаи тоза» муроҷиат кунед.",
+    "subQuestions": [
+      {
+        "text": "Ин эълон барои онҳое ҷолиб мебошад, ки меҷӯянд",
+        "options": [
+          "кори доимӣ",
+          "ширкати хуби тоза кардан",
+          "кормандон барои ширкат"
+        ],
+        "correctAnswer": "ширкати хуби тоза кардан"
+      },
+      {
+        "text": "Ширкат машғул аст",
+        "options": [
+          "тоза кардани ҳуҷраҳо",
+          "таълими кормандон",
+          "тоза кардани офисҳо"
+        ],
+        "correctAnswer": "тоза кардани ҳуҷраҳо"
+      },
+      {
+        "text": "Қоидаи асосии ширкат:",
+        "options": [
+          "кори хуб кардан",
+          "маоши зиёд кардан",
+          "нархҳои пастро нигоҳ доштан"
+        ],
+        "correctAnswer": "нархҳои пастро нигоҳ доштан"
+      }
+    ]
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Прочитайте объявление и выберите правильный ответ.\n\nЭто объявление можно увидеть при входе на территорию",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e46b000038c78828c/view?project=6721fc620035074537ed",
+    "options": [
+      "поликлиники",
+      "продуктового магазина",
+      "государственной организации"
+    ],
+    "correctAnswer": "государственной организации"
+  },
+  "en": {
+    "text": "Read the announcement and choose the correct answer.\n\nThis announcement can be seen at the entrance to the territory",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e46b000038c78828c/view?project=6721fc620035074537ed",
+    "options": [
+      "clinic",
+      "grocery store",
+      "state organization"
+    ],
+    "correctAnswer": "state organization"
+  },
+  "uz": {
+    "text": "E'lonni o'qing va to'g'ri javobni tanlang.\n\nBu e'lonni hududga kirishda ko'rish mumkin",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e46b000038c78828c/view?project=6721fc620035074537ed",
+    "options": [
+      "poliklinika",
+      "ovqat do'koni",
+      "davlat tashkiloti"
+    ],
+    "correctAnswer": "davlat tashkiloti"
+  },
+  "tj": {
+    "text": "Эълонро хонед ва ҷавоби дурустро интихоб кунед.\n\nИн эълонро дар даромадгоҳ ба ҳудуд дидан мумкин аст",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e46b000038c78828c/view?project=6721fc620035074537ed",
+    "options": [
+      "поликлиника",
+      "мағозаи маҳсулоти ғизоӣ",
+      "ташкилоти давлатӣ"
+    ],
+    "correctAnswer": "ташкилоти давлатӣ"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Прочитайте объявление и выберите правильный ответ.\n\nВнимание!\n\nПроводятся работы по очистке крыши.\n\nНаходиться вблизи дома ОПАСНО: возможно падение снега и сосулек!\n\nПросьба не ставить машины около стен дома.\n\nСтоять возле дома опасно, потому что",
+    "options": [
+      "рядом с домом ездят машины",
+      "с крыши может упасть снег",
+      "в доме ремонтируют стены"
+    ],
+    "correctAnswer": "с крыши может упасть снег"
+  },
+  "en": {
+    "text": "Read the announcement and choose the correct answer.\n\nAttention!\n\nRoof cleaning works are being carried out.\n\nIt is DANGEROUS to be near the house: possible fall of snow and icicles!\n\nPlease do not park cars near the walls of the house.\n\nStanding near the house is dangerous because",
+    "options": [
+      "cars drive near the house",
+      "snow may fall from the roof",
+      "the walls are being repaired in the house"
+    ],
+    "correctAnswer": "snow may fall from the roof"
+  },
+  "uz": {
+    "text": "E'lonni o'qing va to'g'ri javobni tanlang.\n\nDiqqat!\n\nTomni tozalash ishlari olib borilmoqda.\n\nUy yaqinida bo'lish XAVFLI: qor va muzlar tushishi mumkin!\n\nIltimos, mashinalarni uy devorlari yaqiniga qo'ymang.\n\nUy yaqinida turish xavfli, chunki",
+    "options": [
+      "uy yaqinida mashinalar yuradi",
+      "tomdan qor tushishi mumkin",
+      "uyda devorlarni ta'mirlashmoqda"
+    ],
+    "correctAnswer": "tomdan qor tushishi mumkin"
+  },
+  "tj": {
+    "text": "Эълонро хонед ва ҷавоби дурустро интихоб кунед.\n\nДиққат!\n\nКорҳои тоза кардани бом гузаронида мешаванд.\n\nДар наздикии хона будан ХАВФНОК аст: афтидани барф ва яхҳо мумкин аст!\n\nЛутфан, мошинҳоро дар назди деворҳои хона нагузоред.\n\nДар назди хона истодан хавфнок аст, зеро",
+    "options": [
+      "назди хона мошинҳо мегузаранд",
+      "аз бом барф афтида метавонад",
+      "дар хона деворҳоро таъмир мекунанд"
+    ],
+    "correctAnswer": "аз бом барф афтида метавонад"
+  }
+},
+{
+  "type": "textGroup",
+  "ru": {
+    "text": "Прочитайте текст и выполните задания 13–17.\n\nВЛАДИМИР ВЫСОЦКИЙ\n\nВладимир Высоцкий родился 25 января 1938 года в Москве. Его мать была переводчицей, а отец – офицером. После окончания 10 класса Володя поступил в Московский инженерно-строительный институт. Но скоро он понял, что ошибся. И однажды ночью мать Володи услышала, как он кричит: «Всё! Хватит! В этом институте я больше не учусь!» Сначала Владимир занимался в драматическом кружке, потом поступил в театральный институт и окончил его. Владимир Высоцкий много и с удовольствием работал. Он был актёром Московского театра на Таганке. Он сыграл в театре 16 ролей, лучшая из них – роль Гамлета. Высоцкий работал не только в театре, но и в кино. В кино он создал более 30 ролей. Кроме того, он выступал с концертами, сочинял стихи и песни. Он писал и пел о войне, героях, простых людях, характерах и жизни. За всю свою жизнь он написал около 1000 песен. Умер Владимир Высоцкий рано утром 25 июля 1980 года. Ему было только 42 года...",
+    "subQuestions": [
+      {
+        "text": "Владимир Высоцкий родился",
+        "options": [
+          "зимой",
+          "весной",
+          "осенью"
+        ],
+        "correctAnswer": "зимой"
+      },
+      {
+        "text": "Поступив в Московский инженерно-строительный институт, Владимир Высоцкий понял, что",
+        "options": [
+          "он правильно выбрал свою будущую профессию",
+          "он сделал ошибку",
+          "этот институт ему не нравится, так как там плохо преподают"
+        ],
+        "correctAnswer": "он сделал ошибку"
+      },
+      {
+        "text": "Владимир Высоцкий был актёром",
+        "options": [
+          "театра Сатиры",
+          "Большого театра",
+          "театра на Таганке"
+        ],
+        "correctAnswer": "театра на Таганке"
+      },
+      {
+        "text": "В театре Владимир Высоцкий сыграл",
+        "options": [
+          "16 ролей",
+          "30 ролей",
+          "1000 ролей"
+        ],
+        "correctAnswer": "16 ролей"
+      },
+      {
+        "text": "Владимир Высоцкий был",
+        "options": [
+          "актёром театра",
+          "киноактёром",
+          "актёром театра и кино"
+        ],
+        "correctAnswer": "актёром театра и кино"
+      }
+    ]
+  },
+  "en": {
+    "text": "Read the text and complete tasks 13–17.\n\nVLADIMIR VYSOTSKY\n\nVladimir Vysotsky was born on January 25, 1938 in Moscow. His mother was a translator, and his father was an officer. After finishing 10th grade, Volodya entered the Moscow Civil Engineering Institute. But soon he realized that he had made a mistake. And one night Volodya's mother heard him shout: 'That's it! Enough! I'm not studying at this institute anymore!' At first Vladimir attended a drama club, then entered a theater institute and graduated from it. Vladimir Vysotsky worked a lot and with pleasure. He was an actor at the Moscow Taganka Theater. He played 16 roles in the theater, the best of them was the role of Hamlet. Vysotsky worked not only in theater, but also in cinema. In cinema he created more than 30 roles. In addition, he performed concerts, composed poems and songs. He wrote and sang about war, heroes, ordinary people, characters and life. During his entire life he wrote about 1000 songs. Vladimir Vysotsky died early in the morning on July 25, 1980. He was only 42 years old...",
+    "subQuestions": [
+      {
+        "text": "Vladimir Vysotsky was born",
+        "options": [
+          "in winter",
+          "in spring",
+          "in autumn"
+        ],
+        "correctAnswer": "in winter"
+      },
+      {
+        "text": "Having entered the Moscow Civil Engineering Institute, Vladimir Vysotsky realized that",
+        "options": [
+          "he chose his future profession correctly",
+          "he made a mistake",
+          "he doesn't like this institute because they teach poorly there"
+        ],
+        "correctAnswer": "he made a mistake"
+      },
+      {
+        "text": "Vladimir Vysotsky was an actor",
+        "options": [
+          "of the Satire Theater",
+          "of the Bolshoi Theater",
+          "of the Taganka Theater"
+        ],
+        "correctAnswer": "of the Taganka Theater"
+      },
+      {
+        "text": "In the theater Vladimir Vysotsky played",
+        "options": [
+          "16 roles",
+          "30 roles",
+          "1000 roles"
+        ],
+        "correctAnswer": "16 roles"
+      },
+      {
+        "text": "Vladimir Vysotsky was",
+        "options": [
+          "a theater actor",
+          "a film actor",
+          "a theater and film actor"
+        ],
+        "correctAnswer": "a theater and film actor"
+      }
+    ]
+  },
+  "uz": {
+    "text": "Matnni o'qing va 13–17-topshiriqlarni bajaring.\n\nVLADIMIR VISOTSKIY\n\nVladimir Visotskiy 1938 yil 25 yanvarda Moskva da tug'ilgan. Onasi tarjimon, otasi esa ofitser edi. 10-sinfni tugatgandan keyin Volodya Moskva qurilish muhandislik institutiga kirdi. Lekin tez orada xato qilganini tushundi. Va bir kecha Volodyaning onasi uning baqirganini eshitdi: «Hammasi! Bas! Bu institutda endi o'qimayman!» Avval Vladimir drama to'garagida shug'ullangan, keyin teatr institutiga kirdi va uni tugatdi. Vladimir Visotskiy ko'p va zavq bilan ishlagan. U Moskva Taganka teatrining aktyori edi. Teatrda 16 rol o'ynagan, eng yaxshisi — Gamlet roli. Visotskiy nafaqat teatrda, balki kinoda ham ishlagan. Kinoda 30 dan ortiq rol yaratgan. Bundan tashqari, konsertlar bilan chiqish qilgan, she'r va qo'shiqlar yozgan. U urush, qahramonlar, oddiy odamlar, xarakterlar va hayot haqida yozgan va kuylagan. Butun umri davomida 1000 ga yaqin qo'shiq yozgan. Vladimir Visotskiy 1980 yil 25 iyulda ertalab erta vafot etgan. Unga faqat 42 yosh edi...",
+    "subQuestions": [
+      {
+        "text": "Vladimir Visotskiy tug'ilgan",
+        "options": [
+          "qishda",
+          "bahorda",
+          "kuzda"
+        ],
+        "correctAnswer": "qishda"
+      },
+      {
+        "text": "Moskva qurilish muhandislik institutiga kirgach, Vladimir Visotskiy tushundi, ki",
+        "options": [
+          "u o'z kelajak kasbini to'g'ri tanlagan",
+          "u xato qilgan",
+          "bu institut unga yoqmaydi, chunki u yerda yomon o'qitishadi"
+        ],
+        "correctAnswer": "u xato qilgan"
+      },
+      {
+        "text": "Vladimir Visotskiy aktyor edi",
+        "options": [
+          "Satira teatrining",
+          "Katta teatrining",
+          "Taganka teatrining"
+        ],
+        "correctAnswer": "Taganka teatrining"
+      },
+      {
+        "text": "Teatrda Vladimir Visotskiy o'ynagan",
+        "options": [
+          "16 rol",
+          "30 rol",
+          "1000 rol"
+        ],
+        "correctAnswer": "16 rol"
+      },
+      {
+        "text": "Vladimir Visotskiy edi",
+        "options": [
+          "teatr aktyori",
+          "kino aktyori",
+          "teatr va kino aktyori"
+        ],
+        "correctAnswer": "teatr va kino aktyori"
+      }
+    ]
+  },
+  "tj": {
+    "text": "Матнро хонед ва вазифаҳои 13–17-ро иҷро кунед.\n\nВЛАДИМИР ВЫСОТСКИЙ\n\nВладимир Высоцкий соли 1938 25 январ дар Маскав таваллуд шудааст. Модараш тарҷумон буд, падар — афсар. Пас аз хатми синфи 10 Володя ба Институти муҳандисии сохтмонии Маскав дохил шуд. Аммо зуд фаҳмид, ки хато кардааст. Ва як шаб модари Володя шунид, ки ӯ бақ мезанад: «Ҳамааш! Бас! Дар ин институт дигар намехонам!» Аввал Владимир дар доираи драма машғул буд, баъд ба институти театрӣ дохил шуд ва онро хатм кард. Владимир Высоцкий зиёд ва бо завқ кор мекард. Ӯ ҳунарманди Театри Маскав дар Таганка буд. Дар театр 16 нақш бозид, беҳтаринаш — нақши Гамлет. Высоцкий на фақат дар театр, балки дар кино ҳам кор мекард. Дар кино зиёда аз 30 нақш офарид. Ғайр аз ин, бо консертҳо баромад мекард, шеър ва сурудҳо менавишт. Ӯ дар бораи ҷанг, қаҳрамонҳо, одамони оддӣ, характерҳо ва ҳаёт менавишт ва мехонд. Дар тамоми умраш тақрибан 1000 суруд навишт. Владимир Высоцкий субҳи барвақт 25 июли соли 1980 вафот кард. Ба ӯ ҳамагӣ 42 сол буд...",
+    "subQuestions": [
+      {
+        "text": "Владимир Высоцкий таваллуд шудааст",
+        "options": [
+          "дар зимистон",
+          "дар баҳор",
+          "дар тирамоҳ"
+        ],
+        "correctAnswer": "дар зимистон"
+      },
+      {
+        "text": "Пас аз дохил шудан ба Институти муҳандисии сохтмонии Маскав Владимир Высоцкий фаҳмид, ки",
+        "options": [
+          "ӯ касби ояндаи худро дуруст интихоб кардааст",
+          "ӯ хато кардааст",
+          "ин институт ба ӯ маъқул нест, зеро дар он ҷо бад дарс медиҳанд"
+        ],
+        "correctAnswer": "ӯ хато кардааст"
+      },
+      {
+        "text": "Владимир Высоцкий ҳунарманд буд",
+        "options": [
+          "театри Сатира",
+          "Театри Калон",
+          "театри дар Таганка"
+        ],
+        "correctAnswer": "театри дар Таганка"
+      },
+      {
+        "text": "Дар театр Владимир Высоцкий бозид",
+        "options": [
+          "16 нақш",
+          "30 нақш",
+          "1000 нақш"
+        ],
+        "correctAnswer": "16 нақш"
+      },
+      {
+        "text": "Владимир Высоцкий буд",
+        "options": [
+          "ҳунарманди театр",
+          "ҳунарманди кино",
+          "ҳунарманди театр ва кино"
+        ],
+        "correctAnswer": "ҳунарманди театр ва кино"
+      }
+    ]
+  }
+},
+{
+  "type": "speaking",
+  "excludeFromStatistics": true,
+  "ru": {
+    "text": "Заполните анкету.\n\nВ одном из кафе быстрого питания Вас попросили заполнить анкету посетителя.",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e3c5f0023a11ee621/view?project=6721fc620035074537ed",
+    "exampleAnswer": "Сколько Вам лет? Ваш пол? 35 лет, мужской\nВаш статус в настоящее время работающий\nГде Вы предпочитаете питаться (дома, в кафе). Почему? Дома. Дешевле, вкуснее и жена готовит привычную еду\nЕсли у Вас мало времени и Вам нужно быстро пообедать, где Вы это сделаете? В фастфуде (Макдональдс или KFC)\nЧто для Вас важнее: цена, вид еды или другое? Цена\nКак Вы относитесь к фастфуду? Нормально отношусь, но не часто ем\nКак часто Вы посещаете заведения быстрого питания (фастфуда)? 1–2 раза в месяц\nЗнаете ли Вы о негативном влиянии фастфуда на человека? Да, знаю. Много жира, соли, сахара — вредно для сердца, веса и желудка"
+  },
+  "en": {
+    "text": "Fill out the questionnaire.\n\nIn one of the fast food cafes, you were asked to fill out a visitor questionnaire.",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e3c5f0023a11ee621/view?project=6721fc620035074537ed",
+    "exampleAnswer": "How old are you? Your gender? 35 years old, male\nYour current status working\nWhere do you prefer to eat (at home, in a cafe). Why? At home. Cheaper, tastier and wife cooks familiar food\nIf you have little time and need to have a quick lunch, where will you do it? In fast food (McDonald's or KFC)\nWhat is more important for you: price, type of food or other? Price\nHow do you feel about fast food? I feel normal, but don't eat often\nHow often do you visit fast food establishments? 1–2 times a month\nDo you know about the negative impact of fast food on a person? Yes, I know. Lots of fat, salt, sugar — harmful for heart, weight and stomach"
+  },
+  "uz": {
+    "text": "Anketani to'ldiring.\n\nTez ovqatlanish kafelaridan birida sizdan tashrif buyuruvchi anketasini to'ldirishni so'rashdi.",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e3c5f0023a11ee621/view?project=6721fc620035074537ed",
+    "exampleAnswer": "Sizga nechchi yosh? Jinsingiz? 35 yosh, erkak\nHozirgi statusingiz ishlayotgan\nQayerda ovqatlanishni afzal ko'rasiz (uyda, kafeda). Nega? Uyda. Arzonroq, mazaliroq va xotinim odatiy ovqat pishiradi\nAgar vaqtingiz kam bo'lsa va tez tushlik qilish kerak bo'lsa, qayerda qilasiz? Fastfudda (Makdonalds yoki KFC)\nSiz uchun nima muhimroq: narx, ovqat turi yoki boshqa? Narx\nFastfudga qanday munosabatdasiz? Oddiy munosabatdaman, lekin tez-tez yemayman\nTez ovqatlanish joylariga (fastfud) necha marta tashrif buyurasiz? Oyiga 1–2 marta\nFastfudning odamga salbiy ta'siri haqida bilasizmi? Ha, bilaman. Ko'p yog', tuz, shakar — yurak, vazn va oshqozon uchun zararli"
+  },
+  "tj": {
+    "text": "Анкетаро пур кунед.\n\nДар яке аз кафеҳои тезпазӣ аз шумо хоҳиш карданд, ки анкетаи меҳмононро пур кунед.",
+    "imageUrl": "https://appwrite47142.hostkey.in/v1/storage/buckets/6841747800057ed8a4f6/files/687e3c5f0023a11ee621/view?project=6721fc620035074537ed",
+    "exampleAnswer": "Шумо чанд сол доред? Ҷинси шумо? 35 сол, мард\nВазъи ҳозираи шумо коркунанда\nШумо дар куҷо хӯрок хӯрданро афзал медонед (дар хона, дар кафе). Чаро? Дар хона. Арзонтар, маззатар ва занам таоми одатӣ мепазад\nАгар вақти шумо кам бошад ва тез тушлик кардан лозим бошад, дар куҷо ин корро мекунед? Дар фастфуд (Макдоналдс ё KFC)\nБарои шумо чӣ муҳимтар аст: нарх, намуди таом ё дигар? Нарх\nБа фастфуд чӣ гуна муносибат доред? Оддӣ муносибат дорам, аммо зуд-зуд намехӯрам\nЧӣ қадар зуд ба ҷойҳои тезпазӣ (фастфуд) ташриф меоред? Дар як моҳ 1–2 маротиба\nОё дар бораи таъсири манфии фастфуд ба инсон медонед? Ҳа, медонам. Зиёд равған, намак, шакар — барои дил, вазн ва меъда зараровар"
+  }
+},
+{
+  "type": "speaking",
+  "excludeFromStatistics": true,
+  "ru": {
+    "text": "Напишите письмо.\n\nВаш друг в своём письме спрашивает у Вас, как дела, как Вы работаете в России. Напишите другу письмо.\n\nВ письме:\n\n1. Поздоровайтесь.\n2. Поблагодарите его за письмо.\n3. Расскажите, какую работу Вы нашли в России, когда приехали в первый раз.\n4. Напишите, трудно или легко было работать первое время.\n5. Расскажите, какие проблемы у Вас были. Важно ли было хорошо знать русский язык.\n6. Попрощайтесь.",
+    "exampleAnswer": "Привет, [имя друга]!\n\nСпасибо большое за письмо! Рад, что ты написал, интересно узнать, как у тебя дела.\n\nКогда я первый раз приехал в Россию, нашёл работу строителем на стройке в Москве — там нужны были рабочие руки, и я быстро устроился через знакомых.\n\nСначала работать было трудно: физически тяжело, длинные смены, холодная погода зимой, и я уставал сильно.\n\nПроблемы были с языком — не понимал инструкции, сложно общаться с коллегами и начальством, иногда ошибки из-за этого. Знание русского языка очень важно, без него сложно найти хорошую работу и адаптироваться.\n\nПиши чаще! До свидания, обнимаю.\nТвой [ваше имя]"
+  },
+  "en": {
+    "text": "Write a letter.\n\nYour friend in his letter asks you how you are, how you work in Russia. Write a letter to your friend.\n\nIn the letter:\n\n1. Greet him.\n2. Thank him for the letter.\n3. Tell what job you found in Russia when you arrived for the first time.\n4. Write whether it was difficult or easy to work at first.\n5. Tell what problems you had. Was it important to know Russian well.\n6. Say goodbye.",
+    "exampleAnswer": "Hi, [friend's name]!\n\nThank you very much for the letter! I'm glad you wrote, interesting to know how you're doing.\n\nWhen I first came to Russia, I found a job as a builder on a construction site in Moscow — they needed workers, and I quickly got a job through acquaintances.\n\nAt first it was difficult to work: physically hard, long shifts, cold weather in winter, and I got very tired.\n\nProblems were with the language — I didn't understand instructions, it was hard to communicate with colleagues and bosses, sometimes mistakes because of that. Knowledge of Russian is very important, without it it's hard to find a good job and adapt.\n\nWrite more often! Goodbye, hugs.\nYour [your name]"
+  },
+  "uz": {
+    "text": "Xat yozing.\n\nDo'stingiz xatida sizdan ahvolingizni, Rossiyada qanday ishlayotganingizni so'rayapti. Do'stingizga xat yozing.\n\nXatda:\n\n1. Salomlashib qo'ying.\n2. Unga xat uchun rahmat aytib qo'ying.\n3. Rossiyaga birinchi marta kelganingizda qanday ish topganingizni aytib bering.\n4. Ishlash dastlab qiyin yoki oson bo'lganini yozing.\n5. Qanday muammolaringiz bo'lganini aytib bering. Rus tilini yaxshi bilish muhimmi edi.\n6. Xayrlashing.",
+    "exampleAnswer": "Salom, [do'st ismi]!\n\nXat uchun katta rahmat! Yozganingdan xursandman, qanday ahvolingni bilish qiziq.\n\nRossiyaga birinchi marta kelganimda, Moskva da qurilish maydonida quruvchi bo'lib ish topdim — u yerda ishchi qo'llar kerak edi, va tanishlar orqali tez joylashdim.\n\nDastlab ishlash qiyin edi: jismoniy jihatdan og'ir, uzun smenalar, qishda sovuq ob-havo, va juda charchardim.\n\nMuammolar til bilan bo'ldi — ko'rsatmalarni tushunmasdim, hamkasblar va boshliqlar bilan muloqot qilish qiyin, ba'zan shu sabab xatolar. Rus tilini bilish juda muhim, unsiz yaxshi ish topish va moslashish qiyin.\n\nTez-tez yoz! Xayr, quchoqlayman.\nSening [ismingiz]"
+  },
+  "tj": {
+    "text": "Нома нависед.\n\nДӯсти шумо дар номаи худ аз шумо мепурсад, ки чӣ хел астед, чӣ тавр дар Русия кор мекунед. Ба дӯст нома нависед.\n\nДар нома:\n\n1. Салом диҳед.\n2. Барои нома ташаккур гӯед.\n3. Нақл кунед, ки ҳангоми бори аввал омадан ба Русия кадом корро пайдо кардед.\n4. Нависед, ки аввал кор кардан душвор буд ё осон.\n5. Нақл кунед, ки кадом мушкилотҳо доштед. Оё донистани хуби забони русӣ муҳим буд.\n6. Хайрухуш кунед.",
+    "exampleAnswer": "Салом, [номи дӯст]!\n\nБарои нома ташаккури зиёд! Аз навиштани ту хурсанд шудам, ҷолиб аст бидонӣ, ки чӣ хел ҳастӣ.\n\nВақте ки бори аввал ба Русия омадам, дар Маскав дар майдони сохтмон ҳамчун сохтмончӣ кор пайдо кардам — дар он ҷо дастони корӣ лозим буданд, ва тавассути шиносҳо зуд ҷойгир шудам.\n\nАввал кор кардан душвор буд: ҷисмонӣ вазнин, сменаҳои дароз, дар зимистон ҳавои сард, ва хеле хаста мешудем.\n\nМушкилотҳо бо забон буданд — дастурҳоро намефаҳмидам, бо ҳамкорон ва сарварҳо муошират кардан душвор, баъзан аз ин сабаб хатоҳо. Донистани забони русӣ хеле муҳим аст, бе он кори хуб пайдо кардан ва мутобиқ шудан душвор аст.\n\nЗуд-зуд навис! Хайр, оғӯш мекунам.\nДӯсти ту [номи шумо]"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Друг ____________ мне купить эту машину.",
+    "options": [
+      "показал",
+      "попросил",
+      "посоветовал"
+    ],
+    "correctAnswer": "посоветовал"
+  },
+  "en": {
+    "text": "A friend ____________ me to buy this car.",
+    "options": [
+      "showed",
+      "asked",
+      "advised"
+    ],
+    "correctAnswer": "advised"
+  },
+  "uz": {
+    "text": "Do'st ____________ menga bu mashinani sotib olishni.",
+    "options": [
+      "ko'rsatdi",
+      "iltimos qildi",
+      "maslahat berdi"
+    ],
+    "correctAnswer": "maslahat berdi"
+  },
+  "tj": {
+    "text": "Дӯст ____________ ба ман ин мошинро харидан.",
+    "options": [
+      "нишон дод",
+      "хост",
+      "маслиҳат дод"
+    ],
+    "correctAnswer": "маслиҳат дод"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "На улице он ____________ к нам и поздоровался.",
+    "options": [
+      "подошёл",
+      "пришёл",
+      "отошёл"
+    ],
+    "correctAnswer": "подошёл"
+  },
+  "en": {
+    "text": "On the street he ____________ to us and greeted.",
+    "options": [
+      "approached",
+      "came",
+      "walked away"
+    ],
+    "correctAnswer": "approached"
+  },
+  "uz": {
+    "text": "Ko'chada u ____________ bizga va salom berdi.",
+    "options": [
+      "yaqinlashdi",
+      "keldi",
+      "ketdi"
+    ],
+    "correctAnswer": "yaqinlashdi"
+  },
+  "tj": {
+    "text": "Дар кӯча ӯ ____________ ба мо ва салом дод.",
+    "options": [
+      "наздик шуд",
+      "омад",
+      "рафт"
+    ],
+    "correctAnswer": "наздик шуд"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Ещё рано, музей закрыт, приходите ___________.",
+    "options": [
+      "за час",
+      "через час",
+      "на час"
+    ],
+    "correctAnswer": "через час"
+  },
+  "en": {
+    "text": "It's still early, the museum is closed, come ___________.",
+    "options": [
+      "in an hour",
+      "after an hour",
+      "for an hour"
+    ],
+    "correctAnswer": "after an hour"
+  },
+  "uz": {
+    "text": "Hali erta, muzey yopiq, keling ___________.",
+    "options": [
+      "bir soatda",
+      "bir soatdan keyin",
+      "bir soatga"
+    ],
+    "correctAnswer": "bir soatdan keyin"
+  },
+  "tj": {
+    "text": "Ҳанӯз барвақт, музей баста аст, биёед ___________.",
+    "options": [
+      "дар як соат",
+      "пас аз як соат",
+      "барои як соат"
+    ],
+    "correctAnswer": "пас аз як соат"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Когда у тебя экзамен ___________?",
+    "options": [
+      "в русском языке",
+      "о русском языке",
+      "по русскому языку"
+    ],
+    "correctAnswer": "по русскому языку"
+  },
+  "en": {
+    "text": "When do you have an exam ___________?",
+    "options": [
+      "in Russian language",
+      "about Russian language",
+      "in Russian language (subject)"
+    ],
+    "correctAnswer": "in Russian language (subject)"
+  },
+  "uz": {
+    "text": "Qachon senga imtihon ___________?",
+    "options": [
+      "rus tilida",
+      "rus tili haqida",
+      "rus tili bo'yicha"
+    ],
+    "correctAnswer": "rus tili bo'yicha"
+  },
+  "tj": {
+    "text": "Кай ба ту имтиҳон ___________?",
+    "options": [
+      "дар забони русӣ",
+      "дар бораи забони русӣ",
+      "аз забони русӣ"
+    ],
+    "correctAnswer": "аз забони русӣ"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Внимание, ____________ есть вопросы, спрашивайте!",
+    "options": [
+      "кому",
+      "у кого",
+      "кого"
+    ],
+    "correctAnswer": "у кого"
+  },
+  "en": {
+    "text": "Attention, ____________ has questions, ask!",
+    "options": [
+      "to whom",
+      "who has",
+      "whom"
+    ],
+    "correctAnswer": "who has"
+  },
+  "uz": {
+    "text": "Diqqat, ____________ savollar bor, so'rang!",
+    "options": [
+      "kimga",
+      "kimda",
+      "kimni"
+    ],
+    "correctAnswer": "kimda"
+  },
+  "tj": {
+    "text": "Диққат, ____________ саволҳо ҳастанд, пурсед!",
+    "options": [
+      "барои кӣ",
+      "дар кӣ",
+      "киро"
+    ],
+    "correctAnswer": "дар кӣ"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Наш директор хочет, ____________ сотрудники не опаздывали.",
+    "options": [
+      "чтобы",
+      "что",
+      "если"
+    ],
+    "correctAnswer": "чтобы"
+  },
+  "en": {
+    "text": "Our director wants ____________ the employees not to be late.",
+    "options": [
+      "that (subjunctive)",
+      "that",
+      "if"
+    ],
+    "correctAnswer": "that (subjunctive)"
+  },
+  "uz": {
+    "text": "Bizning direktor xohlaydi, ____________ xodimlar kechikmasin.",
+    "options": [
+      "ki",
+      "nima",
+      "agar"
+    ],
+    "correctAnswer": "ki"
+  },
+  "tj": {
+    "text": "Директори мо мехоҳад, ____________ кормандон дер намонанд.",
+    "options": [
+      "ки",
+      "ки",
+      "агар"
+    ],
+    "correctAnswer": "ки"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Одно из первых событий российской истории –",
+    "options": [
+      "призвание варягов",
+      "«стояние» на реке Угре",
+      "Полтавская битва"
+    ],
+    "correctAnswer": "призвание варягов"
+  },
+  "en": {
+    "text": "One of the first events in Russian history is –",
+    "options": [
+      "the calling of the Varangians",
+      "the 'stand' on the Ugra River",
+      "the Battle of Poltava"
+    ],
+    "correctAnswer": "the calling of the Varangians"
+  },
+  "uz": {
+    "text": "Rossiya tarixidagi birinchi voqealardan biri –",
+    "options": [
+      "varyaglar chaqiruvi",
+      "Ugra daryosidagi 'turish'",
+      "Poltava jangi"
+    ],
+    "correctAnswer": "varyaglar chaqiruvi"
+  },
+  "tj": {
+    "text": "Яке аз ҳодисаҳои аввалини таърихи Русия –",
+    "options": [
+      "даъвати варягҳо",
+      "«истодан» дар дарёи Угра",
+      "Ҷанги Полтава"
+    ],
+    "correctAnswer": "даъвати варягҳо"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Россия стала империей",
+    "options": [
+      "при Александре Невском",
+      "при Дмитрии Донском",
+      "при Петре I"
+    ],
+    "correctAnswer": "при Петре I"
+  },
+  "en": {
+    "text": "Russia became an empire",
+    "options": [
+      "under Alexander Nevsky",
+      "under Dmitry Donskoy",
+      "under Peter I"
+    ],
+    "correctAnswer": "under Peter I"
+  },
+  "uz": {
+    "text": "Rossiya imperiya bo'ldi",
+    "options": [
+      "Aleksandr Nevskiy davrida",
+      "Dmitriy Donskoy davrida",
+      "Pyotr I davrida"
+    ],
+    "correctAnswer": "Pyotr I davrida"
+  },
+  "tj": {
+    "text": "Русия империя шуд",
+    "options": [
+      "дар давраи Александр Невский",
+      "дар давраи Дмитрий Донской",
+      "дар давраи Пётри I"
+    ],
+    "correctAnswer": "дар давраи Пётри I"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "П.А. Столыпин был",
+    "options": [
+      "реформатором",
+      "военачальником",
+      "революционером"
+    ],
+    "correctAnswer": "реформатором"
+  },
+  "en": {
+    "text": "P.A. Stolypin was",
+    "options": [
+      "a reformer",
+      "a military leader",
+      "a revolutionary"
+    ],
+    "correctAnswer": "a reformer"
+  },
+  "uz": {
+    "text": "P.A. Stolipin edi",
+    "options": [
+      "islohotchi",
+      "harbiy rahbar",
+      "inqilobchi"
+    ],
+    "correctAnswer": "islohotchi"
+  },
+  "tj": {
+    "text": "П.А. Столипин буд",
+    "options": [
+      "ислоҳотгар",
+      "фармондеҳи ҳарбӣ",
+      "инқилобӣ"
+    ],
+    "correctAnswer": "ислоҳотгар"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "В ходе Великой Отечественной войны Красная армия взяла",
+    "options": [
+      "Париж",
+      "Берлин",
+      "Мадрид"
+    ],
+    "correctAnswer": "Берлин"
+  },
+  "en": {
+    "text": "During the Great Patriotic War, the Red Army took",
+    "options": [
+      "Paris",
+      "Berlin",
+      "Madrid"
+    ],
+    "correctAnswer": "Berlin"
+  },
+  "uz": {
+    "text": "Buyuk Vatan urushi davrida Qizil armiya oldi",
+    "options": [
+      "Parij",
+      "Berlin",
+      "Madrid"
+    ],
+    "correctAnswer": "Berlin"
+  },
+  "tj": {
+    "text": "Дар давраи Ҷанги Бузурги Ватанӣ Армияи Сурх гирифт",
+    "options": [
+      "Париж",
+      "Берлин",
+      "Мадрид"
+    ],
+    "correctAnswer": "Берлин"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "В 2014 г. в состав России вошёл",
+    "options": [
+      "Кольский полуостров",
+      "остров Сахалин",
+      "полуостров Крым"
+    ],
+    "correctAnswer": "полуостров Крым"
+  },
+  "en": {
+    "text": "In 2014, it joined Russia",
+    "options": [
+      "Kola Peninsula",
+      "Sakhalin Island",
+      "Crimean Peninsula"
+    ],
+    "correctAnswer": "Crimean Peninsula"
+  },
+  "uz": {
+    "text": "2014 yilda Rossiya tarkibiga kirdi",
+    "options": [
+      "Kolskiy yarim oroli",
+      "Saxalin oroli",
+      "Qrim yarim oroli"
+    ],
+    "correctAnswer": "Qrim yarim oroli"
+  },
+  "tj": {
+    "text": "Соли 2014 ба таркиби Русия дохил шуд",
+    "options": [
+      "нимҷазираи Колский",
+      "ҷазираи Сахалин",
+      "нимҷазираи Қрим"
+    ],
+    "correctAnswer": "нимҷазираи Қрим"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Изобретатель радио – это",
+    "options": [
+      "А.С. Попов",
+      "А.С. Пушкин",
+      "П.И. Чайковский"
+    ],
+    "correctAnswer": "А.С. Попов"
+  },
+  "en": {
+    "text": "The inventor of radio is",
+    "options": [
+      "A.S. Popov",
+      "A.S. Pushkin",
+      "P.I. Tchaikovsky"
+    ],
+    "correctAnswer": "A.S. Popov"
+  },
+  "uz": {
+    "text": "Radio ixtirochisi – bu",
+    "options": [
+      "A.S. Popov",
+      "A.S. Pushkin",
+      "P.I. Chaykovskiy"
+    ],
+    "correctAnswer": "A.S. Popov"
+  },
+  "tj": {
+    "text": "Ихтироъкори радио – ин аст",
+    "options": [
+      "А.С. Попов",
+      "А.С. Пушкин",
+      "П.И. Чайковский"
+    ],
+    "correctAnswer": "А.С. Попов"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Автором романа в стихах «Евгений Онегин» является",
+    "options": [
+      "М.И. Глинка",
+      "А.С. Пушкин",
+      "С.П. Королёв"
+    ],
+    "correctAnswer": "А.С. Пушкин"
+  },
+  "en": {
+    "text": "The author of the novel in verse 'Eugene Onegin' is",
+    "options": [
+      "M.I. Glinka",
+      "A.S. Pushkin",
+      "S.P. Korolev"
+    ],
+    "correctAnswer": "A.S. Pushkin"
+  },
+  "uz": {
+    "text": "She'riy romani «Yevgeniy Onegin» muallifi",
+    "options": [
+      "M.I. Glinka",
+      "A.S. Pushkin",
+      "S.P. Korolyov"
+    ],
+    "correctAnswer": "A.S. Pushkin"
+  },
+  "tj": {
+    "text": "Муаллифи романи шеърӣ «Евгений Онегин» аст",
+    "options": [
+      "М.И. Глинка",
+      "А.С. Пушкин",
+      "С.П. Королёв"
+    ],
+    "correctAnswer": "А.С. Пушкин"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Конституция Российской Федерации в системе нормативных правовых актов обладает",
+    "options": [
+      "подзаконной силой",
+      "верховенством",
+      "косвенным действием"
+    ],
+    "correctAnswer": "верховенством"
+  },
+  "en": {
+    "text": "The Constitution of the Russian Federation in the system of normative legal acts has",
+    "options": [
+      "subordinate force",
+      "supremacy",
+      "indirect action"
+    ],
+    "correctAnswer": "supremacy"
+  },
+  "uz": {
+    "text": "Rossiya Federatsiyasi Konstitutsiyasi me'yoriy huquqiy hujjatlar tizimida ega",
+    "options": [
+      "qo'l ostidagi kuch",
+      "ustunlik",
+      "bilvosita harakat"
+    ],
+    "correctAnswer": "ustunlik"
+  },
+  "tj": {
+    "text": "Конститутсияи Федератсияи Русия дар низоми ҳуҷҷатҳои ҳуқуқии меъёрӣ дорои",
+    "options": [
+      "қувваи зерқонунӣ",
+      "устуворӣ",
+      "амали ғайримустақим"
+    ],
+    "correctAnswer": "устуворӣ"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "В Российской Федерации идеологическое многообразие предполагает наличие",
+    "options": [
+      "многопартийности",
+      "единственной идеологии",
+      "цензуры"
+    ],
+    "correctAnswer": "многопартийности"
+  },
+  "en": {
+    "text": "In the Russian Federation, ideological diversity implies the presence of",
+    "options": [
+      "multi-party system",
+      "a single ideology",
+      "censorship"
+    ],
+    "correctAnswer": "multi-party system"
+  },
+  "uz": {
+    "text": "Rossiya Federatsiyasida ideologik xilma-xillik mavjudligini nazarda tutadi",
+    "options": [
+      "ko'p partiyaviylik",
+      "yagona ideologiya",
+      "sensura"
+    ],
+    "correctAnswer": "ko'p partiyaviylik"
+  },
+  "tj": {
+    "text": "Дар Федератсияи Русия гуногунрангии идеологӣ вуҷуди",
+    "options": [
+      "ҳизбҳои зиёд",
+      "идеологияи ягона",
+      "сензура"
+    ],
+    "correctAnswer": "ҳизбҳои зиёд"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Условием заключения брака в Российской Федерации является",
+    "options": [
+      "наличие российского гражданства",
+      "наличие собственности у иностранного гражданина на территории Российской Федерации",
+      "добровольное согласие жениха и невесты"
+    ],
+    "correctAnswer": "добровольное согласие жениха и невесты"
+  },
+  "en": {
+    "text": "A condition for concluding a marriage in the Russian Federation is",
+    "options": [
+      "possession of Russian citizenship",
+      "possession of property by a foreign citizen on the territory of the Russian Federation",
+      "voluntary consent of the bridegroom and bride"
+    ],
+    "correctAnswer": "voluntary consent of the bridegroom and bride"
+  },
+  "uz": {
+    "text": "Rossiya Federatsiyasida nikoh tuzish sharti hisoblanadi",
+    "options": [
+      "Rossiya fuqaroligiga ega bo'lish",
+      "chet el fuqarosining Rossiya Federatsiyasi hududida mulkiga ega bo'lish",
+      "kelin va kuyovning ixtiyoriy roziligi"
+    ],
+    "correctAnswer": "kelin va kuyovning ixtiyoriy roziligi"
+  },
+  "tj": {
+    "text": "Шарти бастани ақди никоҳ дар Федератсияи Русия аст",
+    "options": [
+      "вуҷуди шаҳрвандии Русия",
+      "вуҷуди моликият барои шаҳрванди хориҷӣ дар қаламрави Федератсияи Русия",
+      "розигии ихтиёрии домод ва арӯс"
+    ],
+    "correctAnswer": "розигии ихтиёрии домод ва арӯс"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Нужно ли обязательное образование юридического лица для занятий предпринимательской деятельностью на территории Российской Федерации?",
+    "options": [
+      "нет",
+      "да",
+      "да, если лицо является иностранным гражданином"
+    ],
+    "correctAnswer": "нет"
+  },
+  "en": {
+    "text": "Is mandatory education of a legal entity required for engaging in entrepreneurial activity on the territory of the Russian Federation?",
+    "options": [
+      "no",
+      "yes",
+      "yes, if the person is a foreign citizen"
+    ],
+    "correctAnswer": "no"
+  },
+  "uz": {
+    "text": "Rossiya Federatsiyasi hududida tadbirkorlik faoliyati bilan shug'ullanish uchun yuridik shaxsning majburiy ta'limi kerakmi?",
+    "options": [
+      "yo'q",
+      "ha",
+      "ha, agar shaxs chet el fuqarosi bo'lsa"
+    ],
+    "correctAnswer": "yo'q"
+  },
+  "tj": {
+    "text": "Оё таҳсилоти ҳатмии шахси ҳуқуқӣ барои машғул шудан ба фаъолияти соҳибкорӣ дар қаламрави Федератсияи Русия лозим аст?",
+    "options": [
+      "не",
+      "ҳа",
+      "ҳа, агар шахс шаҳрванди хориҷӣ бошад"
+    ],
+    "correctAnswer": "не"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Ограничивает ли российское законодательство количество продлений срока вида на жительство?",
+    "options": [
+      "да",
+      "нет",
+      "ограничение допускается для отдельных категорий иностранных граждан"
+    ],
+    "correctAnswer": "нет"
+  },
+  "en": {
+    "text": "Does Russian legislation limit the number of extensions of the residence permit period?",
+    "options": [
+      "yes",
+      "no",
+      "restriction is allowed for certain categories of foreign citizens"
+    ],
+    "correctAnswer": "no"
+  },
+  "uz": {
+    "text": "Rossiya qonunchiligi yashash guvohnomasi muddatini uzaytirish sonini cheklaydimi?",
+    "options": [
+      "ha",
+      "yo'q",
+      "chet el fuqarolarining ayrim toifalari uchun cheklash ruxsat etiladi"
+    ],
+    "correctAnswer": "yo'q"
+  },
+  "tj": {
+    "text": "Оё қонунгузории Русия шумораи тамдиди мӯҳлати иҷозатномаи истиқоматро маҳдуд мекунад?",
+    "options": [
+      "ҳа",
+      "не",
+      "маҳдудият барои категорияҳои алоҳидаи шаҳрвандони хориҷӣ иҷозат дода мешавад"
+    ],
+    "correctAnswer": "не"
+  }
+},
+{
+  "type": "text",
+  "ru": {
+    "text": "Нарушение правил пересечения Государственной границы Российской Федерации лицами и транспортными средствами влечёт наложение административного штрафа. Верно ли это утверждение?",
+    "options": [
+      "верно",
+      "неверно"
+    ],
+    "correctAnswer": "верно"
+  },
+  "en": {
+    "text": "Violation of the rules for crossing the State border of the Russian Federation by persons and vehicles entails the imposition of an administrative fine. Is this statement correct?",
+    "options": [
+      "correct",
+      "incorrect"
+    ],
+    "correctAnswer": "correct"
+  },
+  "uz": {
+    "text": "Rossiya Federatsiyasi Davlat chegarasini o'tkazish qoidalarini shaxslar va transport vositalari tomonidan buzilishi ma'muriy jarima solishni chaqiradi. Bu bayonot to'g'rimi?",
+    "options": [
+      "to'g'ri",
+      "noto'g'ri"
+    ],
+    "correctAnswer": "to'g'ri"
+  },
+  "tj": {
+    "text": "Вайрон кардани қоидаҳои убур аз сарҳади давлатии Федератсияи Русия аз ҷониби шахсон ва воситаҳои нақлиёт ҷаримаи маъмурӣ мегардад. Оё ин тавсиф дуруст аст?",
+    "options": [
+      "дуруст",
+      "нодуруст"
+    ],
+    "correctAnswer": "дуруст"
+  }
+},
+
+];
 
 const testConfig = {
   patent: { name: "Патент", questions: questionsPatent },
